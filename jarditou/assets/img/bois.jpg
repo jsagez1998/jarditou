@@ -1,0 +1,3001 @@
+<!doctype html>
+<html lang="fr-FR">
+    <head >
+        <script>
+    var require = {
+        "baseUrl": "https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR"
+    };
+</script>
+        <meta charset="utf-8"/>
+<meta name="description" content="Votre jardin et votre potager méritent ce qu'il y a de mieux. C'est pourquoi Jardiland vous propose un large choix de produits consacrés au jardinage. Plantes, outils, terreau, aménagement, décoration, mobilier… Retrouvez tout ce dont vous avez besoin pour embellir et aménager vos extérieurs. L'idéal pour concrétiser tous vos projets et prendre soin de votre jardin tout au long de l'année."/>
+<meta name="robots" content="INDEX,FOLLOW"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>Achetez vos produits pour le jardin sur Jardiland.com - Livraison 24/48H offerte - Jardiland</title>
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/mage/calendar.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/css/styles-m.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/HelloBrave_CookieCompliance/css/hellobrave_cookiecompliance.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Blackbird_MenuManager/css/menumanager_menu_front.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Jardiland_Theme/css/collection_jardin.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/css/jardi-v2-style.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Magento_Swatches/css/swatches.css" />
+<link  rel="stylesheet" type="text/css"  media="all" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Jardiland_Catalog/css/custom.css" />
+<link  rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/css/styles-l.css" />
+<link  rel="stylesheet" type="text/css"  media="print" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/css/print.css" />
+<link  rel="stylesheet" type="text/css"  order="99999" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Jardiland_Christmas/css/menu.css" />
+<link  rel="stylesheet" type="text/css"  order="9999" href="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/css/app.css" />
+<script  type="text/javascript"  src="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/requirejs/require.js"></script>
+<script  type="text/javascript"  src="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/mage/requirejs/mixins.js"></script>
+<script  type="text/javascript"  src="https://www.jardiland.com/static/_requirejs/frontend/Jardiland/desktop/fr_FR/requirejs-config.js"></script>
+<script  type="text/javascript"  src="https://recommendation-js.woosmap.com/recommendation.js"></script>
+<link  rel="icon" type="image/x-icon" href="https://www.jardiland.com/media/favicon/default/favicon.ico" />
+<link  rel="shortcut icon" type="image/x-icon" href="https://www.jardiland.com/media/favicon/default/favicon.ico" />
+<style>.article-animated-rollhover{background-size: contain !important;}</style>                <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-52B5ZK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script type="text/x-magento-init">
+    {"*":{"yireoGoogleTagManager":{"attributes":{"categoryId":"10268","categoryName":"Jardin","page_type":"catalog","level_0":"jardin","level_1":"","level_2":"","device":"desktop","id_magasin":null,"pageType":"catalog\/category\/view"},"id":"GTM-52B5ZK"}}}
+    </script>
+<script type="text/javascript" src="//try.abtasty.com/2e0a6f60fef0d1679823a65df28f4357.js"></script>    </head>
+    <body data-container="body" data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/loader-2.gif"}}' class="page-with-filter page-products categorypath-jardin category-jardin catalog-category-view page-layout-page-univers">
+        <script>
+    woosmapRecommendation.setProjectKey('jardiland-woos-staging');
+</script>    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                if (versionObj.version !== 'eeb195a1fa5e4ab6e1af693d1e6721688f41b398') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: 'eeb195a1fa5e4ab6e1af693d1e6721688f41b398'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "/",
+                "domain": ".www.jardiland.com",
+                "secure": false,
+                "lifetime": "3600"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>Javascript est désactivé dans votre navigateur.</strong>
+                    <span>Pour une meilleure expérience sur notre site, assurez-vous d’activer JavaScript dans votre navigateur.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+    <div id="hb-cc-wrap">
+        <span>Nous utilisons des cookies afin de vous proposer des services et offres adaptés à vos centres d’intérêts ainsi que pour réaliser des statistiques de visite. En poursuivant la navigation sur notre site, vous acceptez la politique d’utilisation des cookies. - <a href="https://www.jardiland.com/politique-de-confidentialite/" id="hb-cc-ll">En savoir plus et paramétrer les cookies</a> - <a href="#" id="hb-cc-hide">J'accepte</a></span>
+    </div>
+    <script type="text/javascript">
+        requirejs(['jquery','jquery.cookie'],function(jQuery){
+            (function($) {
+                // Show cookie bar
+                if ($.cookie('Consent') != "true") {
+                    $('#hb-cc-wrap').show();
+                }
+                // Handle hide button
+                $('#hb-cc-hide').click(function(event) {
+                    event.preventDefault();
+                    $('#hb-cc-wrap').hide();
+                    // SET COOKIE
+                    $.cookie('Consent', "true", { expires: 28, path: '/' });
+                    dataLayer.push({
+                        'event': 'cookie_accepted'
+                    });
+                })
+            })(jQuery);
+        });
+    </script>
+    <div class="page-wrapper"><header class="page-header"><div class="top-notice show-for-large">
+    <div class="top-notice__delivery">
+        <p class="top-notice__delivery__text">
+            <b style="position:relative"><i class="icon-delivery" style="font-size: 26px; position: absolute; margin-left: -30px;"></i>Sur Jardiland.com</b>  livraison à domicile 48/72H    |   <b>En magasin</b>
+retrait en 2H gratuit
+        </p>
+    </div>
+</div>
+<div class="panel wrapper"><div class="panel header"><a class="action skip contentarea" href="#contentarea"><span>Allez au contenu</span></a>
+
+<script>
+    require(['jquery', 'disko/capaddress', 'disko/caputils'], function($, capaddress){
+
+            capaddress({
+                street_ID: 'street_1',
+                add1_ID: 'street_2',
+                add2_ID: 'street_3',
+                add3_ID: 'street_4',
+                zip_ID: 'zip',
+                city_ID: 'city',
+                capTypeFRPath: 'https://www.jardiland.com/capaddress/ajax/'
+            });
+
+    });
+</script>
+</div></div><div class="header content">
+<div class="block block-search" id="block-search">
+    <div class="block block-title"><strong>Rechercher</strong></div>
+    <div class="block block-content">
+        <form class="form minisearch" id="search_mini_form" action="https://www.jardiland.com/catalogsearch/result/" method="get">
+            <div class="field search">
+                <label class="label" for="search" data-role="minisearch-label">
+                    <span>Rechercher</span>
+                </label>
+                <div class="search-trigger">
+                    Que recherchez-vous ?                </div>
+                <div class="search-overlay">
+                    <i class="icon-close search-overlay__close-search"></i>
+
+                    <div class="search-overlay__top">
+                        <div class="row">
+                            <div class="control">
+                                <input id="search"
+                                       data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://www.jardiland.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete",
+                                "templates": {"term":{"title":"Recherches populaires","template":"Smile_ElasticsuiteCore\/autocomplete\/term"},"product":{"title":"Produits","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product"},"category":{"title":"Cat\u00e9gories","template":"Smile_ElasticsuiteCatalog\/autocomplete\/category"},"product_attribute":{"title":"Attributs","template":"Smile_ElasticsuiteCore\/autocomplete\/term","titleRenderer":"Smile_ElasticsuiteCatalog\/js\/autocomplete\/product-attribute"}},
+                                "priceFormat" : {"pattern":"%s\u00a0\u20ac","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":"\u00a0","groupLength":3,"integerRequired":1}}
+                            }'
+                                       type="text"
+                                       name="q"
+                                       value=""
+                                       placeholder="Rechercher..."
+                                       class="input-text input-animation"
+                                       maxlength="128"
+                                       role="combobox"
+                                       aria-haspopup="false"
+                                       aria-autocomplete="both"
+                                       autocomplete="off"
+                                       data-block="autocomplete-form"/>
+                                                                <span class="icon-close empty-search"></span>
+                                <div class="actions">
+                                    <button type="submit"
+                                            title="Voir tous les produits"
+                                            class="action search button button--orange">
+                                        <span>Voir tous les produits</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search-overlay__bottom">
+                        <div class="row">
+                            <div id="search_autocomplete" class="search-autocomplete"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="bg-overlay"></div>
+
+<script type="text/x-magento-init">
+    {
+        "#block-search":
+        {
+            "searchModule" : {}
+        }
+    }
+</script>
+<span data-action="toggle-nav" class="action nav-toggle"><span>Basculer la navigation</span></span>
+    <a class="logo" href="https://www.jardiland.com/" title="Jardiland">
+                <i class="icon-logo"></i>
+        <span class="logo-mobile">J</span>
+            </a>
+
+<div data-block="minicart" class="minicart-wrapper">
+    <a class="action showcart" href="https://www.jardiland.com/checkout/cart/" title="Panier">
+        <span class="text">Mon panier</span>
+        <span class="counter qty empty">
+            <span class="counter-number">0</span>
+        </span>
+    </a>
+        <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.jardiland.com\/checkout\/cart\/","checkoutUrl":"https:\/\/www.jardiland.com\/checkout\/","updateItemQtyUrl":"https:\/\/www.jardiland.com\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.jardiland.com\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image","baseUrl":"https:\/\/www.jardiland.com\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"customerLoginUrl":"https:\/\/www.jardiland.com\/customer\/account\/login\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.jardiland.com\/captcha\/refresh\/","isRequired":false},"guest_checkout":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.jardiland.com\/captcha\/refresh\/","isRequired":false}}};
+    </script>
+    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":1,"display_cart_subtotal_excl_tax":0,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals","children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}}}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/loader-1.gif"
+        }
+    }
+    </script>
+</div>
+
+<script type="text/javascript">
+    require(['jquery'], function($){
+        var data = (typeof localStorage.getItem('mage-cache-storage') !== 'undefined') ? JSON.parse(localStorage.getItem('mage-cache-storage')) : false;
+        if(data && typeof data.cart !== 'undefined' && data.cart.summary_count > 0){
+            $('.minicart-wrapper .counter-number').text(data.cart.summary_count).parent().removeClass('empty');
+        }
+    });
+</script><ul class="header links"><li><a href="https://www.jardiland.com/loyalty/customer/info/" class="icon-loyalty" >Loyalty</a></li><li><a href="https://www.jardiland.com/storelocator/" title="Nos magasins" class="icon-storelocator" >Store locator</a></li><li><a href="https://www.jardiland.com/customer/account/" title="Connexion/Inscription" id="login-popup" class="icon-account" >Mon compte</a></li></ul></div></header>    <div class="sections nav-sections">
+                <div class="section-items nav-sections-items" data-mage-init='{"tabs":{"openedState":"active"}}'>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.menu">Menu</a>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.menu" data-role="content">
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+                <li class="level0  level-top menu-item-active">
+        <a href=https://www.jardiland.com/jardin.html class="level0  level-top menu-item-active" target=_self role="menuitem">
+                                        <span>Jardin</span>
+                    </a>
+                    <ul class="level0 submenu" style="display: none;">
+                        <li class="level1  first">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur.html class="level1  first" target=_self role="menuitem">
+                                        <span>Plante d'extérieur</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/rosier.html class="level2  first" target=_self role="menuitem">
+                                        <span>Rosier</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/bulbe-a-fleurs.html class="level2 " target=_self role="menuitem">
+                                        <span>Bulbe à fleurs</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/graine-de-fleurs.html class="level2 " target=_self role="menuitem">
+                                        <span>Graine de fleurs</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/plante-grimpante.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante grimpante</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/plante-climat-doux.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante climat doux</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/bambou.html class="level2 " target=_self role="menuitem">
+                                        <span>Bambou</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/plante-a-massif.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante à massif</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/plante-de-haie.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante de haie</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/plante-de-bassin-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante de bassin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/plante-vivace-et-graminee.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante vivace et graminée</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur/gazon.html class="level2 " target=_self role="menuitem">
+                                        <span>Gazon</span>
+                    </a>
+            </li>
+        <li class="level2  last">
+        <a href=https://www.jardiland.com/jardin/plante-d-exterieur.html class="level2  last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/arbre-arbuste-conifere.html class="level1 " target=_self role="menuitem">
+                                        <span>Arbre, Arbuste &amp; Conifère</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/arbre-arbuste-conifere/arbre.html class="level2  first" target=_self role="menuitem">
+                                        <span>Arbre</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/arbre-arbuste-conifere/arbuste.html class="level2 " target=_self role="menuitem">
+                                        <span>Arbuste</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/arbre-arbuste-conifere/conifere.html class="level2 " target=_self role="menuitem">
+                                        <span>Conifère</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/ class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger.html class="level1 " target=_self role="menuitem">
+                                        <span>Potager &amp; verger</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/potager-verger/arbre-et-arbuste-fruitier.html class="level2  first" target=_self role="menuitem">
+                                        <span>Arbre et arbuste fruitiers</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/graine-aromatique.html class="level2 " target=_self role="menuitem">
+                                        <span>Graine aromatique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/graine-potagere.html class="level2 " target=_self role="menuitem">
+                                        <span>Graine potagère</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/bulbe-potager.html class="level2 " target=_self role="menuitem">
+                                        <span>Bulbe potager</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/plant-du-potager.html class="level2 " target=_self role="menuitem">
+                                        <span>Plant du potager</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/fruitier.html class="level2 " target=_self role="menuitem">
+                                        <span>Fruitier</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/plante-aromatique.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante aromatique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/carre-potager-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Carré potager</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/potager-verger/voile-d-hivernage-et-protection-des-cultures.html class="level2 " target=_self role="menuitem">
+                                        <span>Voile d'hivernage et protection des cultures</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/jardin/potager-verger.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin.html class="level1 " target=_self role="menuitem">
+                                        <span>Outil, Entretien &amp; Soin</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/materiel-et-equipement.html class="level2  first" target=_self role="menuitem">
+                                        <span>Matériel et équipement</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/appareil-de-mesure.html class="level2 " target=_self role="menuitem">
+                                        <span>Appareil de mesure</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/outil-de-jardinage-a-main.html class="level2 " target=_self role="menuitem">
+                                        <span>Outil de jardinage à main</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/outil-de-jardinage-a-moteur.html class="level2 " target=_self role="menuitem">
+                                        <span>Outil de jardinage à moteur</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/protection-des-cultures.html class="level2 " target=_self role="menuitem">
+                                        <span>Protection des cultures</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/arrosage.html class="level2 " target=_self role="menuitem">
+                                        <span>Arrosage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/desherbant-repulsif-et-anti-nuisible.html class="level2 " target=_self role="menuitem">
+                                        <span>Désherbant, répulsif et antinuisible</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/jardinage-ecologique.html class="level2 " target=_self role="menuitem">
+                                        <span>Jardinage écologique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/jardinage-des-enfants.html class="level2 " target=_self role="menuitem">
+                                        <span>Jardinage des enfants</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/accessoires-de-jardin.html class="level2 " target=_self role="menuitem">
+                                        <span>Accessoires de jardin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/terreau-paillage-amendement.html class="level1 " target=_self role="menuitem">
+                                        <span>Terreau, Engrais et Paillage</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/outil-entretien-soin/engrais-naturel-1.html class="level2  first" target=_self role="menuitem">
+                                        <span>Engrais</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/terreau-paillage-amendement/amendement-du-sol.html class="level2 " target=_self role="menuitem">
+                                        <span>Amendement du sol</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/terreau-paillage-amendement/terreau-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Terreau</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/terreau-paillage-amendement/paillage.html class="level2 " target=_self role="menuitem">
+                                        <span>Paillage</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/jardin/terreau-paillage-amendement.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin.html class="level1 " target=_self role="menuitem">
+                                        <span>Aménagement du jardin</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/serre.html class="level2  first" target=_self role="menuitem">
+                                        <span>Serre</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/abris-de-jardin-et-rangement.html class="level2 " target=_self role="menuitem">
+                                        <span>Abris de jardin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/dalle-galet-et-pas-japonais.html class="level2 " target=_self role="menuitem">
+                                        <span>Dalle, galet, gravier et pas japonais</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/cloture-bordure-et-occultation.html class="level2 " target=_self role="menuitem">
+                                        <span>Clôture, palissade et occultation</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/treillage-et-arche.html class="level2 " target=_self role="menuitem">
+                                        <span>Treillage et arche</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/gazon-synthetique.html class="level2 " target=_self role="menuitem">
+                                        <span>Gazon</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/jardin-aquatique.html class="level2 " target=_self role="menuitem">
+                                        <span>Jardin aquatique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin/loisirs-plein-air.html class="level2 " target=_self role="menuitem">
+                                        <span>Loisirs plein air</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/jardin/amenagement-du-jardin.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/decoration-du-jardin.html class="level1 " target=_self role="menuitem">
+                                        <span>Décoration du jardin</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/decoration-du-jardin/pot-bac-support-et-jardiniere.html class="level2  first" target=_self role="menuitem">
+                                        <span>Pot, bac, support et jardinière</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/decoration-du-jardin/eclairage-de-jardin.html class="level2 " target=_self role="menuitem">
+                                        <span>Eclairage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/decoration-du-jardin/fontaine-et-bouddha.html class="level2 " target=_self role="menuitem">
+                                        <span>Fontaine</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/decoration-du-jardin/statue-sujet-de-decorations-et-autres.html class="level2 " target=_self role="menuitem">
+                                        <span>Statue, figurine et autres décorations</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/jardin/decoration-du-jardin.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue.html class="level1 " target=_self role="menuitem">
+                                        <span>Mobilier &amp; Barbecue</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue/salon-de-jardin.html class="level2  first" target=_self role="menuitem">
+                                        <span>Salon de jardin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue/produit-d-entretien-mobilier-de-jardin.html class="level2 " target=_self role="menuitem">
+                                        <span>Produit d'entretien mobilier de jardin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue/relaxation-au-jardin.html class="level2 " target=_self role="menuitem">
+                                        <span>Transat, hamac et parasol</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue/barbecue-plancha-et-brasero.html class="level2 " target=_self role="menuitem">
+                                        <span>Barbecue et plancha</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue/pergola-tonnelle-parasol-et-voile-d-ombrage.html class="level2 " target=_self role="menuitem">
+                                        <span>Pergola, Tonnelle et voile d'ombrage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/jardin/spa-et-piscine.html class="level2 " target=_self role="menuitem">
+                                        <span>Spa et piscine</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/jardin/mobilier-barbecue.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/ class="level1 " target=_self role="menuitem">
+                                        <span>Services</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2 ">
+        <a href=creation-de-jardinieres-rempotage/ class="level2 " target=_self role="menuitem">
+            <span>Rempotage et création de jardinières</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=/analyse-de-terre/ class="level2 " target=_self role="menuitem">
+            <span>Analyse de la terre</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=/analyse-de-leau/ class="level2 " target=_self role="menuitem">
+            <span>Analyse de l'eau</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/pharmacie-des-plantes/ class="level2 " target=_self role="menuitem">
+            <span>Diagnostic plantes malades</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/programme-de-fidelite/ class="level2 " target=_self role="menuitem">
+            <span>Carte de fidélité</span>
+        </a>
+            </li>
+    <li class="level2  last">
+        <a href=https://www.jardiland.com/catalogsearch/result/?q=carte+cadeau class="level2  last" target=_self role="menuitem">
+            <span>Carte Cadeau</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+    <li class="level1 our-brands">
+        <a href=# class="level1 our-brands" target=_self role="menuitem">
+            <span>Nos marques</span>
+        </a>
+                    <ul class="level1 submenu">
+                        <li class="level2 caillard first">
+        <a href=https://www.jardiland.com/marques/jardin-1/caillard.html class="level2 caillard first" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/caillard.png" alt="Caillard"></span>
+                    </a>
+            </li>
+        <li class="level2 lestivalier">
+        <a href=https://www.jardiland.com/marques/jardin-1/l-estivalier.html class="level2 lestivalier" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/lestivalier.png" alt="L'estivalier"></span>
+                    </a>
+            </li>
+        <li class="level2 campingaz">
+        <a href=https://www.jardiland.com/marques/jardin-1/campingaz.html class="level2 campingaz" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/campingaz.png" alt="Campingaz"></span>
+                    </a>
+            </li>
+        <li class="level2 midi-au-soleil">
+        <a href=https://www.jardiland.com/marques/jardin-1/midi-au-soleil.html class="level2 midi-au-soleil" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/midi-au-soleil.png" alt="Midi au soleil"></span>
+                    </a>
+            </li>
+        <li class="level2 fermob">
+        <a href=https://www.jardiland.com/marques/jardin-1/fermob.html class="level2 fermob" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/fermob.png" alt="Fermob"></span>
+                    </a>
+            </li>
+        <li class="level2 naturen">
+        <a href=https://www.jardiland.com/marques/jardin-1/naturen.html class="level2 naturen" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/naturen.png" alt="Naturen"></span>
+                    </a>
+            </li>
+        <li class="level2 fertiligene">
+        <a href=https://www.jardiland.com/marques/jardin-1/fertiligene.html class="level2 fertiligene" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/fertiligene.png" alt="Fertiligène"></span>
+                    </a>
+            </li>
+        <li class="level2 les_poteries_dalbi">
+        <a href=https://www.jardiland.com/marques/jardin-1/les-poteries-d-albi.html class="level2 les_poteries_dalbi" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/les_poteries_dalbi.png" alt="Les poteries d'Albi"></span>
+                    </a>
+            </li>
+        <li class="level2 fiskars">
+        <a href=https://www.jardiland.com/marques/jardin-1/fiskars.html class="level2 fiskars" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/fiskars.png" alt="Fiskars"></span>
+                    </a>
+            </li>
+        <li class="level2 ryobi">
+        <a href=https://www.jardiland.com/marques/jardin-1/ryobi.html class="level2 ryobi" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/ryobi.png" alt="Ryobi"></span>
+                    </a>
+            </li>
+        <li class="level2 fourche_compagnie">
+        <a href=https://www.jardiland.com/marques/jardin-1/fourche-compagnie.html class="level2 fourche_compagnie" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/fourche_compagnie.png" alt="Fourche &amp; Compagnie"></span>
+                    </a>
+            </li>
+        <li class="level2 gardena">
+        <a href=https://www.jardiland.com/marques/jardin-1/gardena.html class="level2 gardena" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/gardena.png" alt="Gardena"></span>
+                    </a>
+            </li>
+        <li class="level2 weber">
+        <a href=https://www.jardiland.com/marques/jardin-1/weber-1.html class="level2 weber" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/weber.png" alt="Weber"></span>
+                    </a>
+            </li>
+        <li class="level2 goicoechea">
+        <a href=https://www.jardiland.com/marques/jardin-1/goicoechea.html class="level2 goicoechea" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/goicoechea.png" alt="Goicoechea"></span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+            <li class="level1 menu-block-container">
+               <div class="menu-block-right"><a class="menu-block-right__link" href="https://www.jardiland.com/conseils-idees/planter-arbres-arbustes-fruitiers/"></a>
+<div class="menu-block-right__illustration" style="background-image: url('http://www.jardiland.com/wp-content/uploads/2019/09/arbre_fruitier_principaleok.jpg');"></div>
+<div class="menu-block-right__content">
+<p class="menu-block-right__content__cat">CONSEIL A LA UNE</p>
+<p class="menu-block-right__content__title">Comment planter les arbres et arbustes fruitiers ?</p>
+</div>
+</div>                    </li>
+            <li class="level1 our-tips last">
+        <a href=https://www.jardiland.com/ class="level1 our-tips last" target=_self role="menuitem">
+                                        <span>Nos conseils</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2  first">
+        <a href=https://www.jardiland.com/conseils-idees/planter-haie-choisir-arbustes/ class="level2  first" target=_self role="menuitem">
+            <span>Comment planter une haie et choisir ses arbustes ? </span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/plante-mois-erica-bruyere-dhiver/ class="level2 " target=_self role="menuitem">
+            <span>La plante du mois : Erica (bruyère d'hiver)</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/bruyere-callune-plantation-culture-entretien/ class="level2 " target=_self role="menuitem">
+            <span>Bruyère ou callune : plantation, culture et entretien</span>
+        </a>
+            </li>
+    <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/conseils-idees/category/conseils/jardin/ class="level2 parent-category last" target=_self role="menuitem">
+            <span>Voir tous nos conseils</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+        <li class="level0  level-top">
+        <a href=https://www.jardiland.com/balcon-terrasse.html class="level0  level-top" target=_self role="menuitem">
+                                        <span>Balcon &amp; terrasse</span>
+                    </a>
+                    <ul class="level0 submenu" style="display: none;">
+                        <li class="level1  first">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1.html class="level1  first" target=_self role="menuitem">
+                                        <span>Plante d'extérieur</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/arbre-et-conifere.html class="level2  first" target=_self role="menuitem">
+                                        <span>Arbre et conifère</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/arbuste-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Arbuste</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/arbre-et-arbuste-fruitier-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Arbre et arbuste fruitiers</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/rosier-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Rosier</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/bulbe-a-fleurs-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Bulbe à fleurs</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/graine-de-fleurs-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Graine de fleurs</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/plante-grimpante-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante grimpante</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/plante-climat-doux-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante climat doux</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/plante-a-massif-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante à massif </span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1/plante-vivace-et-graminee-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante vivace et graminée</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/balcon-terrasse/plante-d-exterieur-1.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse.html class="level1 " target=_self role="menuitem">
+                                        <span>Potager</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse/carre-potager-3.html class="level2  first" target=_self role="menuitem">
+                                        <span>Carré potager</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse/graine-potagere-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Graine potagère</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse/plant-du-potager-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plant du potager</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse/graine-aromatique-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Graine aromatique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse/plante-aromatique-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante aromatique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse/bulbes-a-consommer.html class="level2 " target=_self role="menuitem">
+                                        <span>Bulbe potager</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/accessoires-de-terrasse.html class="level2 " target=_self role="menuitem">
+                                        <span>Accessoires de terrasse</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/balcon-terrasse/potager-balcon-terrasse.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir tout </span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1.html class="level1 " target=_self role="menuitem">
+                                        <span>Outil et entretien</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1/engrais-naturel-2.html class="level2  first" target=_self role="menuitem">
+                                        <span>Engrais et amendement</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1/terreau-et-paillage.html class="level2 " target=_self role="menuitem">
+                                        <span>Terreau et paillage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1/outil-de-jardinage-a-main-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Outil</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1/arrosage-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Arrosage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1/jardinage-des-enfants-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Jardinage des enfants</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/balcon-terrasse/outil-entretien-soin-1.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement.html class="level1 " target=_self role="menuitem">
+                                        <span>Aménagement</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/pot-bac-et-support.html class="level2  first" target=_self role="menuitem">
+                                        <span>Pot, bac et support</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/jardiniere-et-balconniere.html class="level2 " target=_self role="menuitem">
+                                        <span>Jardinière et balconnière</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/dalle-galet-et-pas-japonais-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Dalle, galet et pas japonais</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/cloture-bordure-et-occultation-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Clôture, palissade et occultation</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/treillage-et-arche-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Treillage et arche</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/gazon-synthetique-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Gazon synthétique</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/eclairage-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Eclairage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/statue-sujet-de-decoration-et-autres.html class="level2 " target=_self role="menuitem">
+                                        <span>Statue, figurine et autres décorations</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/fontaine-et-bouddha-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Fontaine</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement/serre-de-balcon.html class="level2 " target=_self role="menuitem">
+                                        <span>Serre de balcon</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/balcon-terrasse/amenagement.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/mobilier-barbecue-1.html class="level1 " target=_self role="menuitem">
+                                        <span>Mobilier &amp; Barbecue</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/balcon-terrasse/mobilier-barbecue-1/salon-de-terrasse.html class="level2  first" target=_self role="menuitem">
+                                        <span>Salon de terrasse</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/mobilier-barbecue-1/relaxation.html class="level2 " target=_self role="menuitem">
+                                        <span>Transat, hamac et parasol</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/balcon-terrasse/mobilier-barbecue-1/barbecue-plancha-et-brasero-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Barbecue et plancha</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/balcon-terrasse/mobilier-barbecue-1.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/ class="level1 " target=_self role="menuitem">
+                                        <span>Services</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2  first">
+        <a href=/creation-de-jardinieres-rempotage/ class="level2  first" target=_self role="menuitem">
+            <span>Rempotage et création de jardinières</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=/analyse-de-terre/ class="level2 " target=_self role="menuitem">
+            <span>Analyse de la terre</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/analyse-de-leau/ class="level2 " target=_self role="menuitem">
+            <span>Analyse de l'eau</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/pharmacie-des-plantes/ class="level2 " target=_self role="menuitem">
+            <span>Diagnostic plantes malades</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/programme-de-fidelite/ class="level2 " target=_self role="menuitem">
+            <span>Carte de fidélité</span>
+        </a>
+            </li>
+    <li class="level2  last">
+        <a href=https://www.jardiland.com/catalogsearch/result/?q=carte+cadeau class="level2  last" target=_self role="menuitem">
+            <span>Carte cadeau</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 our-brands">
+        <a href=https://www.jardiland.com/ class="level1 our-brands" target=_self role="menuitem">
+                                        <span>Nos marques</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2 elho first">
+        <a href=https://www.jardiland.com/marques/jardin-1/elho-1.html class="level2 elho first" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/elho.png" alt="Elho"></span>
+                    </a>
+            </li>
+        <li class="level2 Goicoechea">
+        <a href=https://www.jardiland.com/marques/jardin-1/goicoechea.html class="level2 Goicoechea" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/Goicoechea.png" alt="Goicoechea"></span>
+                    </a>
+            </li>
+        <li class="level2 deroma">
+        <a href=https://www.jardiland.com/marques/jardin-1/deroma.html class="level2 deroma" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/deroma.png" alt="Deroma"></span>
+                    </a>
+            </li>
+        <li class="level2 lestivalier">
+        <a href=https://www.jardiland.com/marques/jardin-1/l-estivalier.html class="level2 lestivalier" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/lestivalier.png" alt="L'estivalier"></span>
+                    </a>
+            </li>
+        <li class="level2 fermob">
+        <a href=https://www.jardiland.com/marques/jardin-1/fermob.html class="level2 fermob" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/fermob.png" alt="Fermob"></span>
+                    </a>
+            </li>
+        <li class="level2 midi-au-soleil">
+        <a href=https://www.jardiland.com/marques/jardin-1/midi-au-soleil.html class="level2 midi-au-soleil" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/midi-au-soleil.png" alt="Midi au soleil"></span>
+                    </a>
+            </li>
+        <li class="level2 Logo Fourche">
+        <a href=https://www.jardiland.com/marques/jardin-1/fourche-compagnie.html class="level2 Logo Fourche" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/Logo Fourche.png" alt="Fourche &amp; compagnie"></span>
+                    </a>
+            </li>
+        <li class="level2 poetic">
+        <a href=https://www.jardiland.com/marques/jardin-1/poetic.html class="level2 poetic" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/poetic.png" alt="Poetic"></span>
+                    </a>
+            </li>
+        <li class="level2 gardena">
+        <a href=https://www.jardiland.com/marques/jardin-1/gardena.html class="level2 gardena" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/gardena.png" alt="Gardena"></span>
+                    </a>
+            </li>
+        <li class="level2 Poteries d_Albi">
+        <a href=https://www.jardiland.com/marques/jardin-1/les-poteries-d-albi.html class="level2 Poteries d_Albi" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/Poteries d_Albi.png" alt="Les poteries d'Albi"></span>
+                    </a>
+            </li>
+        <li class="level2 pro_loisirs">
+        <a href=https://www.jardiland.com/marques/jardin-1/pro-loisirs.html class="level2 pro_loisirs" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/pro_loisirs.png" alt="Pro Loisirs"></span>
+                    </a>
+            </li>
+        <li class="level2 le-marqiuier">
+        <a href=https://www.jardiland.com/catalog/category/view/s/le-marquier-1/id/11159/ class="level2 le-marqiuier" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/le-marqiuier.png" alt="Le Marquier"></span>
+                    </a>
+            </li>
+        <li class="level2 lechuza">
+        <a href=https://www.jardiland.com/marques/decoration-maison/lechuza.html class="level2 lechuza" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/lechuza.png" alt="Lechuza"></span>
+                    </a>
+            </li>
+        <li class="level2 weber">
+        <a href=https://www.jardiland.com/marques/jardin-1/weber-1.html class="level2 weber" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/weber.png" alt="Weber"></span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+            <li class="level1 menu-block-container">
+               <div class="menu-block-right"><a class="menu-block-right__link" href="https://www.jardiland.com/conseils-idees/planter-bulbes-de-printemps/"></a>
+<div class="menu-block-right__illustration" style="background-image: url('http://www.jardiland.com/wp-content/uploads/2019/09/bulbe_principaleok.jpg');"></div>
+<div class="menu-block-right__content">
+<p class="menu-block-right__content__cat">CONSEIL A LA UNE</p>
+<p class="menu-block-right__content__title">Quand et comment planter les bulbes de printemps ?</p>
+</div>
+</div>                    </li>
+            <li class="level1 our-tips last">
+        <a href=https://www.jardiland.com/ class="level1 our-tips last" target=_self role="menuitem">
+                                        <span>Nos conseils</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2  first">
+        <a href=https://www.jardiland.com/conseils-idees/thym-plantation-culture-entretien/ class="level2  first" target=_self role="menuitem">
+            <span>Thym : plantation, culture et entretien</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/origan-plantation-culture-entretien/ class="level2 " target=_self role="menuitem">
+            <span>Origan : plantation, culture et entretien </span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/renoncule-plantation-culture-entretien/ class="level2 " target=_self role="menuitem">
+            <span>Renoncule : plantation, culture et entretien</span>
+        </a>
+            </li>
+    <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/conseils-idees/category/conseils/jardin/ class="level2 parent-category last" target=_self role="menuitem">
+            <span>Voir tous nos conseils</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+        <li class="level0  level-top">
+        <a href=https://www.jardiland.com/maison.html class="level0  level-top" target=_self role="menuitem">
+                                        <span>Maison</span>
+                    </a>
+                    <ul class="level0 submenu" style="display: none;">
+                        <li class="level1  first">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur.html class="level1  first" target=_self role="menuitem">
+                                        <span>Plante d'intérieur</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/plante-fleurie.html class="level2  first" target=_self role="menuitem">
+                                        <span>Plante fleurie</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/orchidee.html class="level2 " target=_self role="menuitem">
+                                        <span>Orchidée</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/plante-verte.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante verte</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/fougere.html class="level2 " target=_self role="menuitem">
+                                        <span>Fougère</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/cactus-succulente-et-plante-grasse.html class="level2 " target=_self role="menuitem">
+                                        <span>Cactus, succulente et plante grasse</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/bonsai-d-interieur.html class="level2 " target=_self role="menuitem">
+                                        <span>Bonsaï d'intérieur</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/plante-carnivore.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante carnivore</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur/plante-artificielle.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante artificielle</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/terreau-et-engrais.html class="level2 " target=_self role="menuitem">
+                                        <span>Terreau et engrais</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/maison/plante-d-interieur.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement.html class="level1 " target=_self role="menuitem">
+                                        <span>Décoration et Aménagement</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/bougeoir-photophore-et-lanterne.html class="level2  first" target=_self role="menuitem">
+                                        <span>Bougeoir, photophore et lanterne</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/bougie-et-senteur.html class="level2 " target=_self role="menuitem">
+                                        <span>Bougie et senteur</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/coussin-et-plaid.html class="level2 " target=_self role="menuitem">
+                                        <span>Coussin et plaid</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/vase-pot-et-coupe.html class="level2 " target=_self role="menuitem">
+                                        <span>Vase, pot et coupe</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/rangement-boite-et-panier.html class="level2 " target=_self role="menuitem">
+                                        <span>Rangement, boite et panier</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/figurine-peluche-et-suspension.html class="level2 " target=_self role="menuitem">
+                                        <span>Figurine, peluche et suspension</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/cadre-tableau-et-miroir.html class="level2 " target=_self role="menuitem">
+                                        <span>Cadre, tableau et miroir</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/tapis-et-paillasson.html class="level2 " target=_self role="menuitem">
+                                        <span>Tapis &amp; paillasson</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/petit-mobilier.html class="level2 " target=_self role="menuitem">
+                                        <span>Petit mobilier</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/cheminee.html class="level2 " target=_self role="menuitem">
+                                        <span>Cheminée</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/plante-artificielle-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Plante artificielle</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement/accessoires-et-objets-de-decoration.html class="level2 " target=_self role="menuitem">
+                                        <span>Accessoires et objets de décoration</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/maison/decoration-amenagement.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/art-de-la-table.html class="level1 " target=_self role="menuitem">
+                                        <span>Art de la table</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/maison/art-de-la-table/vaisselle.html class="level2  first" target=_self role="menuitem">
+                                        <span>Vaisselle</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/art-de-la-table/plateau-et-serviteur.html class="level2 " target=_self role="menuitem">
+                                        <span>Plateau et serviteur</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/art-de-la-table/set-de-table.html class="level2 " target=_self role="menuitem">
+                                        <span>Set de table</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/art-de-la-table/conserve-et-bocal.html class="level2 " target=_self role="menuitem">
+                                        <span>Conserve et bocal</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/maison/art-de-la-table.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/epicerie-fine.html class="level1 " target=_self role="menuitem">
+                                        <span>Épicerie fine</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/maison/epicerie-fine/epicerie-salee.html class="level2  first" target=_self role="menuitem">
+                                        <span>Épicerie salée</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/epicerie-fine/epicerie-sucree.html class="level2 " target=_self role="menuitem">
+                                        <span>Épicerie sucrée</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/maison/epicerie-fine.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie.html class="level1 " target=_self role="menuitem">
+                                        <span>Librairie papeterie </span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/livre-de-jardin.html class="level2  first" target=_self role="menuitem">
+                                        <span>Livre de jardin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/livre-de-cuisine.html class="level2 " target=_self role="menuitem">
+                                        <span>Livre de cuisine</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/livre-pour-enfant.html class="level2 " target=_self role="menuitem">
+                                        <span>Livre pour enfant</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/livre-sur-les-animaux.html class="level2 " target=_self role="menuitem">
+                                        <span>Livre sur les animaux</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/sac-deco.html class="level2 " target=_self role="menuitem">
+                                        <span>Sac déco</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/emballage-et-paquet-cadeau.html class="level2 " target=_self role="menuitem">
+                                        <span>Emballage et paquet cadeau</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie/carte-carnet-et-accessoires.html class="level2 " target=_self role="menuitem">
+                                        <span>Carte, carnet et accessoires</span>
+                    </a>
+            </li>
+        <li class="level2  last">
+        <a href=https://www.jardiland.com/maison/librairie-papeterie.html class="level2  last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/beaute-bien-etre.html class="level1 " target=_self role="menuitem">
+                                        <span>Beauté et bien-être</span>
+                    </a>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/droguerie.html class="level1 " target=_self role="menuitem">
+                                        <span>Droguerie</span>
+                    </a>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison/tendances-deco.html class="level1 " target=_self role="menuitem">
+                                        <span>Tendances déco</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/maison/tendances-deco/campagne.html class="level2  first" target=_self role="menuitem">
+                                        <span>Campagne</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/tendances-deco/contemporain.html class="level2 " target=_self role="menuitem">
+                                        <span>Contemporain</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/maison/tendances-deco/ethnique.html class="level2 " target=_self role="menuitem">
+                                        <span>Ethnique</span>
+                    </a>
+            </li>
+        <li class="level2  last">
+        <a href=https://www.jardiland.com/maison/tendances-deco/vintage.html class="level2  last" target=_self role="menuitem">
+                                        <span>Vintage</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/ class="level1 " target=_self role="menuitem">
+                                        <span>Services</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2  first">
+        <a href=/creation-de-jardinieres-rempotage/ class="level2  first" target=_self role="menuitem">
+            <span>Rempotage et création de jardinières</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/programme-de-fidelite/ class="level2 " target=_self role="menuitem">
+            <span>Carte de fidélité</span>
+        </a>
+            </li>
+    <li class="level2  last">
+        <a href=https://www.jardiland.com/catalogsearch/result/?q=carte+cadeau class="level2  last" target=_self role="menuitem">
+            <span>Carte cadeau</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 our-brands">
+        <a href=https://www.jardiland.com/marques/decoration-maison.html class="level1 our-brands" target=_self role="menuitem">
+                                        <span>Nos marques</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2 lestivalier first">
+        <a href=https://www.jardiland.com/marques/jardin-1/l-estivalier.html class="level2 lestivalier first" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/lestivalier.png" alt="L'Estivalier"></span>
+                    </a>
+            </li>
+        <li class="level2 midi-au-soleil">
+        <a href=https://www.jardiland.com/marques/jardin-1/midi-au-soleil.html class="level2 midi-au-soleil" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/midi-au-soleil.png" alt="Midi au soleil"></span>
+                    </a>
+            </li>
+        <li class="level2 galeo">
+        <a href=https://www.jardiland.com/marques/decoration-maison/galeo.html class="level2 galeo" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/galeo.png" alt="Galeo"></span>
+                    </a>
+            </li>
+        <li class="level2 Lampe Berger">
+        <a href=https://www.jardiland.com/marques/decoration-maison/maison-berger.html class="level2 Lampe Berger" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/Lampe Berger.png" alt="Lampe berger"></span>
+                    </a>
+            </li>
+        <li class="level2 yankeecandle">
+        <a href=https://www.jardiland.com/marques/decoration-maison/yankee-candle.html class="level2 yankeecandle" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/yankeecandle.png" alt="Yankee Candle"></span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+            <li class="level1 menu-block-container">
+               <div class="menu-block-right"><a class="menu-block-right__link" href="https://www.jardiland.com/conseils-idees/faire-terrarium-plantes/"></a>
+<div class="menu-block-right__illustration" style="background-image: url('http://www.jardiland.com/wp-content/uploads/2019/09/terrarium_principaleok.jpg');"></div>
+<div class="menu-block-right__content">
+<p class="menu-block-right__content__cat">CONSEIL A LA UNE</p>
+<p class="menu-block-right__content__title">Comment faire un terrarium pour plantes ?</p>
+</div>
+</div>                    </li>
+            <li class="level1 our-tips last">
+        <a href=https://www.jardiland.com/ class="level1 our-tips last" target=_self role="menuitem">
+                                        <span>Nos conseils</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2  first">
+        <a href=https://depuismonhamac.jardiland.com/diy-comment-creer-un-jardin-aquatique-sur-un-balcon/ class="level2  first" target=_self role="menuitem">
+            <span>Mon jardin aquatique #DIY</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://depuismonhamac.jardiland.com/diy-creer-une-jardiniere-daromatiques/ class="level2 " target=_self role="menuitem">
+            <span>Une jardinière d'aromatiques #DIY</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://depuismonhamac.jardiland.com/diy-lattrape-reves-vegetal/ class="level2 " target=_self role="menuitem">
+            <span>Mon attrape-rêves végétal #DIY</span>
+        </a>
+            </li>
+    <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/conseils-idees/category/conseils/ class="level2 parent-category last" target=_self role="menuitem">
+            <span>Voir tous nos conseils</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+        <li class="level0  level-top">
+        <a href=https://www.jardiland.com/animaux.html class="level0  level-top" target=_self role="menuitem">
+                                        <span>Animaux</span>
+                    </a>
+                    <ul class="level0 submenu" style="display: none;">
+                        <li class="level1  first">
+        <a href=https://www.jardiland.com/animaux/chien.html class="level1  first" target=_self role="menuitem">
+                                        <span>Chien</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/chien/alimentation.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/friandise.html class="level2 " target=_self role="menuitem">
+                                        <span>Friandise</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/gamelle-et-distributeur.html class="level2 " target=_self role="menuitem">
+                                        <span>Gamelle et distributeur</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/niche-couchage-et-transport.html class="level2 " target=_self role="menuitem">
+                                        <span>Niche, couchage et transport</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/jeu-et-jouet.html class="level2 " target=_self role="menuitem">
+                                        <span>Jeu et jouet</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/collier-laisse-et-vetement.html class="level2 " target=_self role="menuitem">
+                                        <span>Collier, laisse et vêtement</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/education.html class="level2 " target=_self role="menuitem">
+                                        <span>Éducation</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/toilettage-du-chien.html class="level2 " target=_self role="menuitem">
+                                        <span>Toilettage du chien</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chien/hygiene-et-soin.html class="level2 " target=_self role="menuitem">
+                                        <span>Hygiène et soin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/chien.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/chat.html class="level1 " target=_self role="menuitem">
+                                        <span>Chat</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/chat/alimentation-et-friandise.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation et friandise</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/gamelle-et-distributeur-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Gamelle et distributeur</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/litiere-hygiene-et-soin.html class="level2 " target=_self role="menuitem">
+                                        <span>Litière, hygiène, soin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/arbre-a-chat-et-griffoir.html class="level2 " target=_self role="menuitem">
+                                        <span>Arbre à chat et griffoir</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/chatiere.html class="level2 " target=_self role="menuitem">
+                                        <span>Chatière</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/jeu-et-jouet-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Jeu et jouet</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/coussin-et-panier-de-transport.html class="level2 " target=_self role="menuitem">
+                                        <span>Coussin et panier de transport</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/collier-laisse-et-harnais.html class="level2 " target=_self role="menuitem">
+                                        <span>Collier, laisse et harnais</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/chat/soin-antiparasitaire-et-para-veterinaire.html class="level2 " target=_self role="menuitem">
+                                        <span>Soin antiparasitaire et "para vétérinaire"</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/chat.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere.html class="level1 " target=_self role="menuitem">
+                                        <span>Rongeur et Petit mammifère</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere/alimentation-et-friandise-1.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation et friandise</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere/gamelle-et-abreuvoir.html class="level2 " target=_self role="menuitem">
+                                        <span>Gamelle et abreuvoir</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere/habitat-cage-et-accessoires.html class="level2 " target=_self role="menuitem">
+                                        <span>Habitat, cage et accessoires</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere/jouet-et-exercice.html class="level2 " target=_self role="menuitem">
+                                        <span>Jouet et exercice</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere/litiere-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Litière</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere/hygiene-et-soin-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Hygiène et soin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/rongeur-petit-mammifere.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/lapin.html class="level1 " target=_self role="menuitem">
+                                        <span>Lapin</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/lapin/alimentation-et-friandise-2.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation et friandise</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/lapin/gamelle-et-abreuvoir-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Gamelle et abreuvoir</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/lapin/habitat-cage-et-accessoires-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Habitat, cage et accessoires</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/lapin/jouet-et-exercice-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Jouet et exercice</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/lapin/hygiene-et-soin-2.html class="level2 " target=_self role="menuitem">
+                                        <span>Hygiène et soin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/lapin.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie.html class="level1 " target=_self role="menuitem">
+                                        <span>Poisson et Aquariophilie</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/alimentation-1.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/distributeur-d-aliments.html class="level2 " target=_self role="menuitem">
+                                        <span>Distributeur d'aliments</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/aquarium-et-meuble.html class="level2 " target=_self role="menuitem">
+                                        <span>Aquarium et meuble</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/filtre.html class="level2 " target=_self role="menuitem">
+                                        <span>Filtre</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/aeration.html class="level2 " target=_self role="menuitem">
+                                        <span>Aération</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/pompe-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Pompe</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/eclairage-2.html class="level2 " target=_self role="menuitem">
+                                        <span>Eclairage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/chauffage.html class="level2 " target=_self role="menuitem">
+                                        <span>Chauffage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/nettoyage.html class="level2 " target=_self role="menuitem">
+                                        <span>Nettoyage </span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/decoration-pour-aquarium.html class="level2 " target=_self role="menuitem">
+                                        <span>Décoration pour aquarium</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie/entretien-et-soin.html class="level2 " target=_self role="menuitem">
+                                        <span>Entretien et soin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/poisson-aquariophilie.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour.html class="level1 " target=_self role="menuitem">
+                                        <span>Poule et Basse-cour</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour/alimentation-et-complement.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation et compléments</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour/poulailler-et-clapier.html class="level2 " target=_self role="menuitem">
+                                        <span>Poulailler et clapier</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour/mangeoire-et-abreuvoir.html class="level2 " target=_self role="menuitem">
+                                        <span>Mangeoire et abreuvoir</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour/accessoires-5.html class="level2 " target=_self role="menuitem">
+                                        <span>Eclairage et chauffage</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour/soin-et-entretien.html class="level2 " target=_self role="menuitem">
+                                        <span>Soin et entretien</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/poule-basse-cour.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/oiseau.html class="level1 " target=_self role="menuitem">
+                                        <span>Oiseau</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/oiseau/alimentation-quotidienne.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation quotidienne</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/oiseau/complement-nutritionnel-2.html class="level2 " target=_self role="menuitem">
+                                        <span>Complément nutritionnel</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/oiseau/friandise-3.html class="level2 " target=_self role="menuitem">
+                                        <span>Friandise</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/oiseau/cage-voliere-et-accessoires.html class="level2 " target=_self role="menuitem">
+                                        <span>Cage, volière et accessoires</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/oiseau/jouet.html class="level2 " target=_self role="menuitem">
+                                        <span>Jouet</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/oiseau/hygiene-et-soin-3.html class="level2 " target=_self role="menuitem">
+                                        <span>Hygiène et soin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/oiseau/oiseau-du-jardin.html class="level2 " target=_self role="menuitem">
+                                        <span>Oiseau du jardin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/oiseau.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/animaux-du-jardin.html class="level1 " target=_self role="menuitem">
+                                        <span>Animaux du jardin</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/animaux-du-jardin/auxiliaire-du-jardin.html class="level2  first" target=_self role="menuitem">
+                                        <span>Auxiliaire du jardin</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/animaux-du-jardin/oiseau-du-jardin-1.html class="level2 " target=_self role="menuitem">
+                                        <span>Oiseau du jardin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/animaux-du-jardin.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux/reptile-insecte.html class="level1 " target=_self role="menuitem">
+                                        <span>Reptile et Insecte</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2  first">
+        <a href=https://www.jardiland.com/animaux/reptile-insecte/alimentation-4.html class="level2  first" target=_self role="menuitem">
+                                        <span>Alimentation</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/reptile-insecte/terrarium-et-accessoires.html class="level2 " target=_self role="menuitem">
+                                        <span>Terrarium et accessoires</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/reptile-insecte/decoration-pour-terrarium.html class="level2 " target=_self role="menuitem">
+                                        <span>Décoration pour terrarium</span>
+                    </a>
+            </li>
+        <li class="level2 ">
+        <a href=https://www.jardiland.com/animaux/reptile-insecte/hygiene-et-soin-4.html class="level2 " target=_self role="menuitem">
+                                        <span>Hygiène et soin</span>
+                    </a>
+            </li>
+        <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/animaux/reptile-insecte.html class="level2 parent-category last" target=_self role="menuitem">
+                                        <span>Voir Tout</span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/ class="level1 " target=_self role="menuitem">
+                                        <span>Services</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/garantie-animaux-bonne-sante/ class="level2 " target=_self role="menuitem">
+            <span>Assurance santé animaux de compagnie</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/programme-de-fidelite/ class="level2 " target=_self role="menuitem">
+            <span>Carte de fidélité</span>
+        </a>
+            </li>
+    <li class="level2  last">
+        <a href=https://www.jardiland.com/catalogsearch/result/?q=carte+cadeau class="level2  last" target=_self role="menuitem">
+            <span>Carte cadeau</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level1 our-brands">
+        <a href=https://www.jardiland.com/ class="level1 our-brands" target=_self role="menuitem">
+                                        <span>Nos marques</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                        <li class="level2 BNN_Logo_rvb first">
+        <a href=https://www.jardiland.com/marques/animalerie/birdy-nam-nam.html class="level2 BNN_Logo_rvb first" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/BNN_Logo_rvb.png" alt="Birdy Nam Nam"></span>
+                    </a>
+            </li>
+        <li class="level2 canagan">
+        <a href=https://www.jardiland.com/marques/animalerie/canagan.html class="level2 canagan" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/canagan.png" alt="Canagan"></span>
+                    </a>
+            </li>
+        <li class="level2 Pedigree">
+        <a href=https://www.jardiland.com/marques/animalerie/pedigree.html class="level2 Pedigree" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/Pedigree.png" alt="Pedigree"></span>
+                    </a>
+            </li>
+        <li class="level2 ekuel">
+        <a href=https://www.jardiland.com/marques/animalerie/ekuel.html class="level2 ekuel" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/ekuel.png" alt="Ekuel"></span>
+                    </a>
+            </li>
+        <li class="level2 purina pro plan">
+        <a href=https://www.jardiland.com/marques/animalerie/purina-pro-plan.html class="level2 purina pro plan" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/purina pro plan.png" alt="Purina Pro Plan"></span>
+                    </a>
+            </li>
+        <li class="level2 feedez">
+        <a href=https://www.jardiland.com/marques/animalerie/feedeez.html class="level2 feedez" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/feedez.png" alt="Feedeez"></span>
+                    </a>
+            </li>
+        <li class="level2 royalcanin">
+        <a href=https://www.jardiland.com/marques/animalerie/royal-canin.html class="level2 royalcanin" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/royalcanin.png" alt="Royal Canin"></span>
+                    </a>
+            </li>
+        <li class="level2 smooz">
+        <a href=https://www.jardiland.com/marques/animalerie/smooz.html class="level2 smooz" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/smooz.png" alt="Smooz"></span>
+                    </a>
+            </li>
+        <li class="level2 hills">
+        <a href=https://www.jardiland.com/marques/animalerie/hill-s-pet-nut.html class="level2 hills" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/hills.png" alt="Hill's"></span>
+                    </a>
+            </li>
+        <li class="level2 tetra">
+        <a href=https://www.jardiland.com/marques/animalerie/tetra.html class="level2 tetra" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/tetra.png" alt="Tetra"></span>
+                    </a>
+            </li>
+        <li class="level2 origea_noir">
+        <a href=https://www.jardiland.com/marques/animalerie/origea.html class="level2 origea_noir" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/origea_noir.png" alt="Origea"></span>
+                    </a>
+            </li>
+        <li class="level2 inwa">
+        <a href=https://www.jardiland.com/marques/animalerie/inwa.html class="level2 inwa" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/inwa.png" alt="Inwa"></span>
+                    </a>
+            </li>
+        <li class="level2 zolux">
+        <a href=https://www.jardiland.com/marques/animalerie/zolux.html class="level2 zolux" target=_self role="menuitem">
+                                        <span><img src="https://www.jardiland.com/media/logoMarques/zolux.png" alt="Zolux"></span>
+                    </a>
+            </li>
+            </ul>
+            </li>
+            <li class="level1 menu-block-container">
+               <div class="menu-block-right"><a class="menu-block-right__link" href="https://www.jardiland.com/conseils-idees/preparer-lhiver-oiseaux-ciel/"></a>
+<div class="menu-block-right__illustration" style="background-image: url('http://www.jardiland.com/wp-content/uploads/2019/09/oiseaux_ciel_ple.jpg');"></div>
+<div class="menu-block-right__content">
+<p class="menu-block-right__content__cat">CONSEIL A LA UNE</p>
+<p class="menu-block-right__content__title">Préparer l'hiver des oiseaux du ciel</p>
+</div>
+</div>                    </li>
+            <li class="level1 our-tips last">
+        <a href=https://www.jardiland.com/ class="level1 our-tips last" target=_self role="menuitem">
+                                        <span>Nos conseils</span>
+                    </a>
+                    <ul class="level1 submenu" style="display: none;">
+                    <li class="level2  first">
+        <a href=https://www.jardiland.com/conseils-idees/comment-jouer-avec-mon-chien/ class="level2  first" target=_self role="menuitem">
+            <span>Comment jouer avec mon chien ? </span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/jamenage-lhabitat-de-lapin-domestique/ class="level2 " target=_self role="menuitem">
+            <span>J'aménage l'habitat de mon lapin domestique</span>
+        </a>
+            </li>
+    <li class="level2 ">
+        <a href=https://www.jardiland.com/conseils-idees/faire-maigrir-chat/ class="level2 " target=_self role="menuitem">
+            <span>Faire maigrir un chat</span>
+        </a>
+            </li>
+    <li class="level2 parent-category last">
+        <a href=https://www.jardiland.com/conseils-idees/category/conseils/animaux/ class="level2 parent-category last" target=_self role="menuitem">
+            <span>Voir tous nos conseils</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+        <li class="level0  level-top">
+        <a href=https://www.jardiland.com/promotions.html class="level0  level-top" target=_self role="menuitem">
+                                        <span>Promotions</span>
+                    </a>
+            </li>
+    <li class="level0 tips level-top">
+        <a href=https://www.jardiland.com/nos-services/ class="level0 tips level-top" target=_self role="menuitem">
+            <span>Services</span>
+        </a>
+                    <ul class="level0 submenu">
+                            <li class="level1 menu-large-container first">
+               <div class="menu-large-block" style="background-image: url('https://www.jardiland.com/wp-content/uploads/2017/12/nos_services.jpg');"><a class="menu-large-block__link" href="https://www.jardiland.com/nos-services/"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">Nos services</p>
+<p class="menu-large-block__overlay__text">D&eacute;couvrez tous nos services qui vous simplifient la vie</p>
+</div>
+</div>                    </li>
+                <li class="level1 menu-large-container">
+               <div class="menu-large-block" style="background-image: url('https://www.jardiland.com/wp-content/uploads/2017/12/engagements.jpg');"><a class="menu-large-block__link" href="https://www.jardiland.com/nos-engagements/"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">Nos engagements</p>
+<p class="menu-large-block__overlay__text">D&eacute;couvrez tous nos engagements : Les solutions s&eacute;r&eacute;nit&eacute; !</p>
+</div>
+</div>                    </li>
+                <li class="level1 menu-large-container last">
+               <div class="menu-large-block" style="background-image: url('https://www.jardiland.com/wp-content/uploads/2017/12/rsz_fidcarte-e1513012513398.jpg');"><a class="menu-large-block__link" href="https://www.jardiland.com/programme-de-fidelite/"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">Programme de Fid&eacute;lit&eacute;</p>
+<p class="menu-large-block__overlay__text">D&eacute;couvrez tous les avantages de notre programme de fid&eacute;lit&eacute; !</p>
+</div>
+</div>                    </li>
+                </ul>
+            </li>
+    <li class="level0 tips last level-top">
+        <a href=https://www.jardiland.com/conseils-idees/nos-conseils/ class="level0 tips last level-top" target=_self role="menuitem">
+            <span>Conseils &amp; Idées</span>
+        </a>
+                    <ul class="level0 submenu">
+                            <li class="level1 menu-large-container first">
+               <style xml="space"><!--
+@media screen and (min-width: 640px) {
+.menu-large-block._middle {
+   height: 48.5%;
+   padding-bottom: 160px !important;
+   margin-bottom: 10px;
+}}
+--></style>
+<div class="menu-large-block _middle" style="background-image: url('https://www.jardiland.com/pub/static/frontend/Jardiland/desktop/fr_FR/Disko_Instagram/images/calendrier/octobre/header-octobre.jpg');"><a class="menu-large-block__link" href="https://www.jardiland.com/conseils-idees/calendrier-jardin-octobre"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">Calendrier du jardin</p>
+<p class="menu-large-block__overlay__text">Retrouvez ici chaque mois les actions &agrave; mener au jardin, au potager et au verger !</p>
+</div>
+</div>
+<div class="menu-large-block _middle" style="background-image: url('https://www.jardiland.com/wp-content/uploads/2018/03/printemps-fleurs-conseils.jpg');"><a class="menu-large-block__link" href="https://www.jardiland.com/conseils-idees/nos-conseils/"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">Nos conseils</p>
+<p class="menu-large-block__overlay__text">D&eacute;couvrez tous nos conseils pour le jardinage, l'am&eacute;nagement de votre jardin ou encore pour vos animaux !</p>
+</div>
+</div>                    </li>
+                <li class="level1 menu-large-container">
+               <div class="menu-large-block" style="background-image: url('https://www.jardiland.com/wp-content/uploads/2018/03/femme_evasion_printemps_header_blog.jpg');"><a class="menu-large-block__link" href="https://depuismonhamac.jardiland.com/"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">Depuis mon hamac</p>
+<p class="menu-large-block__overlay__text">D&eacute;couvrez toutes les tendances du moment sur notre blog !</p>
+</div>
+</div>                    </li>
+                <li class="level1 menu-large-container last">
+               <div class="menu-large-block" style="background-image: url('https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Disko_Instagram/images/jardiquizz/results/japandi/lumineux/japandi-top-left.png');"><a class="menu-large-block__link" href="/conseils-idees/jardiquiz"></a>
+<div class="menu-large-block__overlay">
+<p class="menu-large-block__overlay__title">JardiQuiz</p>
+<p class="menu-large-block__overlay__text">Suivez notre quiz pour composer un int&eacute;rieur &agrave; votre image, entre &eacute;l&eacute;ments d&eacute;co et plantes vertes !</p>
+</div>
+</div>                    </li>
+                </ul>
+            </li>
+    </ul>
+</nav></div>
+                                            <div class="section-item-title nav-sections-item-title" data-role="collapsible">
+                    <a class="nav-sections-item-switch" data-toggle="switch" href="#store.links">Compte</a>
+                </div>
+                <div class="section-item-content nav-sections-item-content" id="store.links" data-role="content"><!-- Account links --></div>
+                                    </div>
+    </div>
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="columns"><div class="column main">
+<div class="page-title-wrapper">
+    <h1 class="page-title" id="page-title-heading">
+        <span class="base">Jardin</span>
+    </h1>
+</div>
+
+<div class="universe">
+            <div class="row">
+            <div class="universe__current" style="background-image: url('https://www.jardiland.com/media/catalog/category/jardin.jpg'); background-size: cover; background-position: center">
+                <p class="universe__current__text show-for-medium">
+                    Votre jardin et votre potager m&eacute;ritent ce qu'il y a de mieux. C'est pourquoi Jardiland vous propose un large choix de produits consacr&eacute;s au jardinage. Plantes, outils, terreau, am&eacute;nagement, d&eacute;coration, mobilier&hellip; Retrouvez tout ce dont vous avez besoin pour embellir et am&eacute;nager vos ext&eacute;rieurs. L'id&eacute;al pour concr&eacute;tiser tous vos projets et prendre soin de votre jardin tout au long de l'ann&eacute;e.                </p>
+            </div>
+        </div>
+                                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/arbre-arbuste-conifere.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/AdobeStock_109354875.jpeg" alt="Arbre, arbuste & Conifère" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">1288 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Arbre, arbuste & Conifère</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        Quoi de mieux qu&rsquo;un arbre ou qu&rsquo;une plante ext&eacute;rieure pour sublimer votre jardin ? Cela tombe bien puisque nous vous offrons une large s&eacute;lection d&rsquo;arbustes, gazons, graines de fleurs, bambous, bulbes &agrave; fleurs, rosiers et autres plantes de jardin. Rien de tel pour donner vie &agrave; tous vos projets d&rsquo;am&eacute;nagement, v&eacute;g&eacute;taliser vos ext&eacute;rieurs avec go&ucirc;t et y apporter une touche de couleur.                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/amenagement-du-jardin.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/am_nagement.jpg" alt="Aménagement du Jardin" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">1030 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Aménagement du Jardin</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        L'am&eacute;nagement de votre jardin n'est pas &agrave; prendre &agrave; la l&eacute;g&egrave;re ! Chez Jardiland, nous vous proposons un large choix de mat&eacute;riel pour vous occuper de vos ext&eacute;rieurs. Serres, dalles, cl&ocirc;tures, arches et autres bordures vous permettront d'embellir votre jardin et de le prot&eacute;ger efficacement. Performants et pratiques &agrave; utiliser, nos accessoires d'am&eacute;nagement ext&eacute;rieur vont rapidement devenir indispensables.                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/decoration-du-jardin.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/d_co-jardin.jpg" alt="Décoration du Jardin" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">378 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Décoration du Jardin</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        Pour sublimer vos ext&eacute;rieurs, nous avons s&eacute;lectionn&eacute; de nombreux &eacute;quipements de d&eacute;co du jardin. Parce que l'am&eacute;nagement du jardin est une chose qui vous tient &agrave; c&oelig;ur, nous vous offrons un large choix de carr&eacute;s potagers, d'&eacute;clairages, de fontaines, de jardini&egrave;res et m&ecirc;me de statues. Tout est r&eacute;uni pour que vous puisiez laisser libre court &agrave; votre imagination et habiller votre jardin.                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/spa-et-piscine.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="" alt="Spa et piscine" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">34 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Spa et piscine</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                                            </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/mobilier-barbecue.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/Image4.jpg" alt="Mobilier & Barbecue" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">686 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Mobilier & Barbecue</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        Pour profiter pleinement de vos ext&eacute;rieurs, vous avez raison de l'am&eacute;nager. Salons, tables, chaises, bains de soleil, tonnelles&hellip; Autant de mobilier de jardin esth&eacute;tique et r&eacute;sistant que nous avons s&eacute;lectionn&eacute; pour vous. Outre des meubles de jardin, nous vous donnons aussi l'occasion d'am&eacute;nager vos ext&eacute;rieurs avec une piscine, des jeux d'enfant et m&ecirc;me un barbecue. Comment r&eacute;sister ?                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/mobilier-et-jeu-pour-enfants.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/J4_Ambiance_4.jpg" alt="Mobilier et jeu pour enfants" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">141 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Mobilier et jeu pour enfants</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                                            </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/outil-entretien-soin.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/outils.jpg" alt="Outil, Entretien & Soin" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">2221 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Outil, Entretien & Soin</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        Un bon mat&eacute;riel permet d'avoir un meilleur entretien de son jardin. Nous vous offrons un large choix d'outils et d'accessoires d'entretien de grande qualit&eacute;. Outils de jardinage &agrave; main, bac de compost, arrosage, protection des cultures, d&eacute;sherbants, brouettes&hellip; Tout ce dont vous avez besoin pour r&eacute;aliser l'entretien de la pelouse et l'entretien du jardin se trouve ici !                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/pot-bac-et-jardiniere.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/J3_ambiance_9_closeup.jpg" alt="Pot, bac et jardinière" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">425 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Pot, bac et jardinière</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                                            </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/potager-verger.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/potager.jpg" alt="Potager & Verger" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">1968 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Potager & Verger</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        Quoi de mieux que de pouvoir savourer ses propres fruits et l&eacute;gumes ? Pour cela, profitez d'un large choix de plantes pour le potager, de graines et autres arbres fruitiers. Bien plus qu'un simple travail ext&eacute;rieur, cultiver un verger ou un potager est une affaire de passion. Une fois l'heure de la r&eacute;colte arriv&eacute;e, fruits et autres l&eacute;gumes feront le bonheur de toute la famille.                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/plante-d-exterieur.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/AdobeStock_56352889_1.jpg" alt="Plante d'extérieur" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">3737 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Plante d'extérieur</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        M&eacute;tamorphosez votre jardin avec notre large choix de plantes d'ext&eacute;rieur : place &agrave; la couleur avec les rosiers, l'exotisme avec les bambous et bonsa&iuml;s d'ext&eacute;rieur ou bien misez sur une d&eacute;coration soign&eacute;e avec nos vari&eacute;t&eacute;s d'arbustes. Il ne vous reste plus qu'&agrave; choisir les esp&egrave;ces qui habilleront de verdure et de couleur votre ext&eacute;rieur.                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/terreau-paillage-amendement.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/terreau-paillage-amendement.jpg" alt="Terreau, Paillage & Amendement" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">241 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Terreau, Paillage & Amendement</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        Pour assurer la pleine croissance de vos plantations et leur sant&eacute;, il est primordial d'utiliser du terreau, du paillage ou de l'engrais pour jardin. Permettant d'avoir une terre &agrave; la fois riche et saine, ces produits garantissent le bon d&eacute;veloppement des plantes. Envie d'offrir le meilleur &agrave; votre potager et &agrave; vos fleurs ? Retrouvez notre s&eacute;lection d'engrais et de terreaux de qualit&eacute;.                    </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/protection-des-vegetaux-et-cultures.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/AdobeStock_169471172.png" alt="Protection des végétaux et cultures" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">124 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Protection des végétaux et cultures</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                                            </p>
+                </div>
+            </div>
+                                <div class="universe__category">
+                <a href="https://www.jardiland.com/jardin/noel-1.html" class="universe__category__link"></a>
+                <div class="universe__category__illustration">
+                    <img class="cover" src="https://www.jardiland.com/media/catalog/category/472x375_11.jpg" alt="Noël" />
+                    <div class="universe__category__illustration__overlay">
+                        <p class="universe__category__illustration__overlay__count">92 produits</p>
+                        <h2 class="universe__category__illustration__overlay__title">Noël</h2>
+                    </div>
+                </div>
+                <div class="universe__category__container">
+                    <p class="universe__category__container__description">
+                        C&rsquo;est No&euml;l chez Jardiland : il est temps de choisir votre sapin et vos d&eacute;corations de No&euml;l pour la maison. Vous souhaitez sublimer votre jardin, votre balcon ou la fa&ccedil;ade de la maison ? Nous avons aussi pens&eacute; &agrave; vous gr&acirc;ce &agrave; une large s&eacute;lection de d&eacute;corations de No&euml;l et d&rsquo;&eacute;clairages ext&eacute;rieurs.                    </p>
+                </div>
+            </div>
+            
+<!--    <div class="universe__guide">-->
+<!--        <div class="universe__guide__illustration"></div>-->
+<!--        <div class="universe__guide__container">-->
+<!--            <p class="universe__guide__container__subtitle">--><!--</p>-->
+<!--            <p class="universe__guide__container__title">Barbecue</p>-->
+<!---->
+<!--            <p class="universe__guide__container__text">Tous nos conseils pour aménagervotre cuisine extérieure !</p>-->
+<!--            <a href="#" class="universe__guide__container__button button button--white">--><!--</a>-->
+<!--        </div>-->
+<!--    </div>-->
+
+</div>
+<div class="our-universes clearfix">
+    <h2 class="our-universes__title">Nos univers</h2>
+    <div class="row">
+        <div class="medium-6 large-3 end columns">
+            <div class="our-universes__lame"  style="background-image: url('https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/category/jardin.jpg')">
+                <div class="our-universes__lame__overlay"></div>
+                <div class="our-universes__lame__text">
+                    <h3 class="our-universes__lame__text__title"><span>Jardin</span></h3>
+                    <p class="our-universes__lame__text__description">Aménagez votre jardin en un tour de main : plantes, outillage, mobilier… Rien de plus simple !</p>
+                </div>
+                <a href="/jardin.html" class="button button--orange">Découvrir l'univers</a>
+            </div>
+        </div>
+        <div class="medium-6 large-3 end columns">
+            <div class="our-universes__lame"  style="background-image: url('https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/category/terrasse.jpg')">
+                <div class="our-universes__lame__overlay"></div>
+                <div class="our-universes__lame__text">
+                    <h3 class="our-universes__lame__text__title"><span>Balcon & Terrasse</span></h3>
+                    <p class="our-universes__lame__text__description">Sublimez vos espaces extérieurs avec notre sélection spéciale balcons et terrasses.</p>
+                </div>
+                <a href="/balcon-terrasse.html" class="button button--orange">Découvrir l'univers</a>
+            </div>
+        </div>
+        <div class="medium-6 large-3 end columns">
+            <div class="our-universes__lame"  style="background-image: url('https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/category/maison.jpg')">
+                <div class="our-universes__lame__overlay"></div>
+                <div class="our-universes__lame__text">
+                    <h3 class="our-universes__lame__text__title"><span>Maison</span></h3>
+                    <p class="our-universes__lame__text__description">Aménager, fleurir ou décorer la maison n'a jamais été aussi facile. Place à la créativité.</p>
+                </div>
+                <a href="/maison.html" class="button button--orange">Découvrir l'univers</a>
+            </div>
+        </div>
+        <div class="medium-6 large-3 end columns">
+            <div class="our-universes__lame"  style="background-image: url('https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/category/animaux.jpg')">
+                <div class="our-universes__lame__overlay"></div>
+                <div class="our-universes__lame__text">
+                    <h3 class="our-universes__lame__text__title"><span>Animaux</span></h3>
+                    <p class="our-universes__lame__text__description">Prenez soin de vos animaux : alimentation, jouets, équipements, hygiène… Tout y est !</p>
+                </div>
+                <a href="/animaux.html" class="button button--orange">Découvrir l'univers</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="seo-text clearfix">
+        <div class="row">
+            <p class="seo-text__title">
+                À propos de Jardin            </p>
+            <p class="seo-text__content">
+                Votre jardin et votre potager méritent ce qu'il y a de mieux. C'est pourquoi Jardiland vous propose un large choix de produits consacrés au jardinage. Plantes, outils, terreau, aménagement, décoration, mobilier… Retrouvez tout ce dont vous avez besoin pour embellir et aménager vos extérieurs. L'idéal pour concrétiser tous vos projets et prendre soin de votre jardin tout au long de l'année.            </p>
+        </div>
+    </div>
+
+<div class="reassurance clearfix">
+    <div class="row">
+        <div class="reassurance__content clearfix" data-slider="dot-slider-double">
+            <div class="medium-6 large-3 columns">
+                <div class="reassurance__content__block">
+                    <p class="reassurance__content__block__title">La pharmacie des plantes</p>
+                    <p class="reassurance__content__block__text">Faites vous livrer directement chez vous</p>
+                </div>
+            </div>
+            <div class="medium-6 large-3 columns">
+                <div class="reassurance__content__block">
+                    <p class="reassurance__content__block__title">Financement</p>
+                    <p class="reassurance__content__block__text">Des solutions de financement pour vos projets</p>
+                </div>
+            </div>
+            <div class="medium-6 large-3 columns">
+                <div class="reassurance__content__block">
+                    <p class="reassurance__content__block__title">Click & Collect</p>
+                    <p class="reassurance__content__block__text">Commandez en ligne et récupérez votre commande en magasin 2h après</p>
+                </div>
+            </div>
+            <div class="medium-6 large-3 columns">
+                <div class="reassurance__content__block">
+                    <p class="reassurance__content__block__title">Garantie Pousse</p>
+                    <p class="reassurance__content__block__text">Échangez ou recevez un avoir si vos végétaux ne poussent pas au bout d'un an</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input name="form_key" type="hidden" value="dVFIGpcqXO66CfZX" /><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.jardiland.com\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.jardiland.com\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.jardiland.com\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fwww.jardiland.com\u002Fstatic\u002Ffrontend\u002FJardiland\u002Fdesktop\u002Ffr_FR\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/section-config":{"sections":{"stores\/store\/switch":"*","directory\/currency\/switch":"*","*":["messages"],"customer\/account\/logout":"*","customer\/account\/loginpost":"*","customer\/account\/createpost":"*","customer\/ajax\/login":["checkout-data","cart"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart","yireo-gtm-order","yireo-gtm-quote"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items","yireo-gtm-order","yireo-gtm-quote"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","checkout-data","last-ordered-items"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","checkout-data"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data"],"checkout\/onepage\/success":["yireo-gtm-order","yireo-gtm-quote"],"authorizenet\/directpost_payment\/place":["cart","checkout-data"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"multishipping\/checkout\/overviewpost":["cart"],"review\/product\/post":["review"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"]},"clientSideSections":["checkout-data"],"baseUrls":["https:\/\/www.jardiland.com\/"]}}}</script>
+<script type="text/x-magento-init">
+{"*":{"Magento_Customer\/js\/customer-data":{"sectionLoadUrl":"https:\/\/www.jardiland.com\/customer\/section\/load\/","cookieLifeTime":"3600","updateSessionUrl":"https:\/\/www.jardiland.com\/customer\/account\/updateSession\/"}}}</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.jardiland.com\/page_cache\/block\/render\/id\/10268\/","handles":["default","catalog_category_view","catalog_category_view_type_layered","catalog_category_view_id_10268"],"originalRequest":{"route":"catalog","controller":"category","action":"view","uri":"\/jardin.html"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+    <script type="text/x-magento-init">
+    {
+        "body": {
+            "requireCookie": {"noCookieUrl":"https:\/\/www.jardiland.com\/cookie\/index\/noCookies\/","triggers":{"addToWishlistLink":".action.towishlist"}}        }
+    }
+</script>
+</div></div></main><footer class="page-footer"><div class="footer content">
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+                <li class="level0  first level-top menu-item-active">
+        <a href=https://www.jardiland.com/ class="level0  first level-top menu-item-active" target=_self role="menuitem">
+                                        <span>Nos produits</span>
+                    </a>
+                    <ul class="level0 submenu" style="display: none;">
+                        <li class="level1  first menu-item-active">
+        <a href=https://www.jardiland.com/jardin.html class="level1  first menu-item-active" target=_self role="menuitem">
+                                        <span>Jardin</span>
+                    </a>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/balcon-terrasse.html class="level1 " target=_self role="menuitem">
+                                        <span>Balcon &amp; terrasse</span>
+                    </a>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/maison.html class="level1 " target=_self role="menuitem">
+                                        <span>Maison</span>
+                    </a>
+            </li>
+        <li class="level1 ">
+        <a href=https://www.jardiland.com/animaux.html class="level1 " target=_self role="menuitem">
+                                        <span>Animaux</span>
+                    </a>
+            </li>
+    <li class="level1 ">
+        <a href=https://www.jardiland.com/collection-jardin class="level1 " target=_self role="menuitem">
+            <span>Collection Jardin</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+    <li class="level0  level-top">
+        <a href=/nos-services/ class="level0  level-top" target=_self role="menuitem">
+            <span>Nos services</span>
+        </a>
+                    <ul class="level0 submenu">
+                    <li class="level1  first">
+        <a href=/livraison-retours class="level1  first" target=_self role="menuitem">
+            <span>Livraison et Retours</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/nos-services/ class="level1 " target=_self role="menuitem">
+            <span>Jardiland s'engage - Nos services</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/nos-engagements/ class="level1 " target=_self role="menuitem">
+            <span>Jardiland s'engage - Nos engagements</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/programme-de-fidelite/ class="level1 " target=_self role="menuitem">
+            <span>Programme de fidélité</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/offrez-une-carte-cadeau-jardiland.html class="level1 " target=_self role="menuitem">
+            <span>Carte cadeau</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/conseils-idees/jardinier-chez-vous/ class="level1 " target=_self role="menuitem">
+            <span>Jardinier chez vous</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/conseils-idees/service-toilettage-jardiland-ca-marche/ class="level1 " target=_self role="menuitem">
+            <span>Toilettage</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/conseils-idees/service-fleuristerie-jardiland-ca-marche/ class="level1 " target=_self role="menuitem">
+            <span>Fleuristerie</span>
+        </a>
+            </li>
+    <li class="level1  last">
+        <a href=https://www.jardiland.com/conseils-idees/paysagisme class="level1  last" target=_self role="menuitem">
+            <span>Paysagisme</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+        <li class="level0  level-top">
+        <a href=https://www.jardiland.com/ class="level0  level-top" target=_self role="menuitem">
+                                        <span>Jardiland</span>
+                    </a>
+                    <ul class="level0 submenu" style="display: none;">
+                    <li class="level1  first">
+        <a href=/conseils-idees/a-propos-de-jardiland/ class="level1  first" target=_self role="menuitem">
+            <span>A propos de Jardiland</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=https://www.jardiland.com/conseils-idees/index-egalite-femmes-hommes/ class="level1 " target=_self role="menuitem">
+            <span>Index égalité femmes-hommes</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/devenir-franchise/ class="level1 " target=_self role="menuitem">
+            <span>Devenir Franchisé</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/nos-partenaires/ class="level1 " target=_self role="menuitem">
+            <span>Nos partenaires</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/conditions-des-offres/ class="level1 " target=_self role="menuitem">
+            <span>Conditions des offres</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=http://jobs.careerpage.fr/career/jardiland/ class="level1 " target=_self role="menuitem">
+            <span>Rejoignez-nous</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=/espace-presse/ class="level1 " target=_self role="menuitem">
+            <span>Espace presse</span>
+        </a>
+            </li>
+    <li class="level1  last">
+        <a href=/plan-du-site/ class="level1  last" target=_self role="menuitem">
+            <span>Plan du site</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+    <li class="level0  last level-top">
+        <a href=https://www.jardiland.com/conseils-idees/nos-conseils/ class="level0  last level-top" target=_self role="menuitem">
+            <span>Nos conseils &amp; idées</span>
+        </a>
+                    <ul class="level0 submenu">
+                    <li class="level1  first">
+        <a href=https://www.jardiland.com/conseils-idees/category/conseils/jardin class="level1  first" target=_self role="menuitem">
+            <span>Nos conseils jardin</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=https://www.jardiland.com/conseils-idees/category/conseils/animaux/ class="level1 " target=_self role="menuitem">
+            <span>Nos conseils animaux</span>
+        </a>
+            </li>
+    <li class="level1 ">
+        <a href=https://www.jardiland.com/ class="level1 " target=_self role="menuitem">
+            <span>Lancez-vous</span>
+        </a>
+            </li>
+    <li class="level1  last">
+        <a href=https://depuismonhamac.jardiland.com/ class="level1  last" target=_self role="menuitem">
+            <span>Le blog bien-être de Jardiland</span>
+        </a>
+            </li>
+            </ul>
+            </li>
+    </ul>
+</nav><div class="navigation second-part">
+    <ul>
+        <li class="social-link">
+            <span class="footer-title">Suivez-nous</span>
+            <ul>
+                <li><a href="https://www.facebook.com/Jardiland"><i class="icon-fb"></i></a></li>
+                <li><a href="https://twitter.com/jardiland"><i class="icon-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/user/JardilandTV"><i class="icon-youtube"></i></a></li>
+                <li><a href="https://www.pinterest.fr/jardiland"><i class="icon-pinterest"></i></a></li>
+                <li><a href="https://www.instagram.com/jardiland"><i class="icon-insta"></i></a></li>
+            </ul>
+        </li>
+        <li class="services">
+            <span class="footer-title">Jardiland N°1</span>
+            <p>
+                Jardiland a été élue Meilleure Chaîne de Magasins et Meilleur E-commerçant dans les catégories Jardinerie et Animalerie.            </p>
+            <a href="https://www.jardiland.com/conseils-idees/meilleure-chaine-de-magasins-jardinerie-animalerie/">En savoir plus</a>
+            <img class="hide-for-medium-only" src="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/awards_slowly.gif" alt="">
+        </li>
+        <li class="direct-link">
+            <a href="https://www.jardiland.com/storelocator/"><i class="icon-locator-J"></i><span class="footer-title">Trouver un magasin</span></a>
+            <a href="https://www.jardiland.com/contact/"><i class="icon-mail"></i><span class="footer-title">Contactez nous</span></a>
+        </li>
+        <li>
+            <div class="block newsletter">
+    <div class="title"><strong>Newsletter</strong></div>
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="https://www.jardiland.com/newsletter/subscriber/new/"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <label class="label" for="newsletter"><span>Inscription à notre lettre d’information :</span></label>
+                <div class="control">
+                    <input name="email" type="email" id="newsletter"
+                                placeholder="Saisissez votre email"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary" title="Inscription" type="submit">
+                    <span>OK</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+        </li>
+    </ul>
+</div><small class="copyright">
+    <a href="https://www.jardiland.com/conditions-generales-vente-2/">CGV</a>
+    <a href="https://www.jardiland.com/mentions-legales/">Mentions légales</a>
+    <a href="https://www.jardiland.com/politique-de-confidentialite/">Politique de Confidentialité</a>
+    <a href="https://www.jardiland.com/plan-du-site/">Plan du site</a>
+    <span>© Jardiland</span>
+</small>
+<div class="secure-payment">
+    Paiement sécurisé    <img src="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/images/cards.jpg" alt="CB Mastercard VISA">
+</div>
+</div><div id="popup-modal" style="display:none" class="block custom-block-customer-login customer-popin">
+    <div class="customer-cta row">
+        <div class="block-title small-12 medium-12 columns">
+            <p id="block-customer-login-heading" class="customer-popin__title" role="heading" aria-level="2">Mon espace personnel</p>
+        </div>
+        <div class="login small-12 medium-6 columns customer-popin__login-col">
+            <p class="customer-popin__login-col__title">Connexion</p>
+            <button class="login-cta button button--orange">J'ai déjà un compte</button>
+        </div>
+        <div class="register small-12 medium-6 columns customer-popin__register-col">
+            <p class="customer-popin__register-col__title">Inscription</p>
+            <button class="register-cta button button--orange">Créer un compte</button>
+        </div>
+    </div>
+    <div class="block-content">
+        <div class="block-customer-login-heading" style="display:none" aria-labelledby="block-customer-login-heading">
+          <div class="block block-customer-login customer-popin__login-section">
+              <div class="block-title customer-popin__login-section__title">
+                  <div id="block-customer-login-heading" role="heading" aria-level="2">Mon espace personnel</div>
+              </div>
+              <div class="block-content" aria-labelledby="block-customer-login-heading">
+                  <form class="form form-login"
+                        action="https://www.jardiland.com/customer/account/loginPost/"
+                        method="post"
+                        id="popup-login-form"
+                        data-mage-init='{"validation":{}}'>
+                      <input name="form_key" type="hidden" value="dVFIGpcqXO66CfZX" />                      <div id="email-sign-in-popin" class="customer-popin__login-section__email-form">
+                        <div class="field email required">
+                            <label class="label" for="email"><span>Adresse email</span></label>
+                            <div class="control relative">
+                                <i class="icon icon-mail-envelope-closed customer-popin__login-section__email-form__icon-input"></i>
+                                <input name="login[username]" placeholder="votremail@gmail.com" value=""  autocomplete="off" id="popup_email" type="email" class="input-text" title="Email" data-validate="{required:true, 'validate-email':true}">
+                            </div>
+                        </div>
+                        <div class="field password required">
+                            <label for="pass" class="label"><span>Mot de passe</span></label>
+                            <div class="control relative">
+                                <i class="icon icon-lock customer-popin__login-section__email-form__icon-input"></i>
+                                <input name="login[password]" placeholder="••••••••" type="password"  autocomplete="off" class="input-text" id="popup_pass" title="Mot de passe" data-validate="{required:true}">
+                            </div>
+                            <a class="action remind customer-popin__login-section__email-form__forgot-link" href="https://www.jardiland.com/customer/account/forgotpassword/"><span>Mot de passe oublié ?</span></a>
+                        </div>
+                        <div class="customer-popin__login-section__email-form__remember-me">
+                          <div class="checkbox--orange">
+                            <input id="popup_rememberMe" type="checkbox" value="None" name="login[rememberMe]">
+                            <label for="popup_rememberMe"></label>
+                            <span class="checkbox-text">Rester connecté</span>
+                          </div>
+                        </div>
+                        <div class="customer-popin__login-section__email-form__submit">
+                          <button type="submit" class="action login primary" name="send" id="popup_send2"><span>Connexion</span></button>
+                          <p class="customer-popin__login-section__email-form__submit__create-account">Pas de compte ? <a class="go-to-register-form">Créer un compte</a></p>
+                        </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+        </div>
+        <div class="block-customer-register-heading" style="display:none">
+            <div class="customer-popin__register-section">
+    <div class="block-title customer-popin__register-section__title">
+        <div id="block-customer-login-heading" role="heading" aria-level="2">Je crée mon espace personnel</div>
+    </div>
+    <div class="customer-popin__register-section__subtitle register-with">
+        Inscrivez-vous avec votre adresse email :    </div>
+    <form class="form create account form-create-account customer-popin__register-section__form" action="https://www.jardiland.com/customer/account/createpost/" method="post" id="popup-form-validate" enctype="multipart/form-data" autocomplete="off">
+        <input name="form_key" type="hidden" value="dVFIGpcqXO66CfZX" />        <!-- BLOCK jardiland.customer.gender --><div class="field civility required">
+    <label class="label"><span>Civilité</span></label>
+            <div class="customer-register-page__form__radio-group">
+                                      <div class="customer-register-page__form__radio-group__radio-button radio--orange">
+            <input type="radio" id="gender_1"
+                   name="gender"
+                   value="1"
+                   checked>
+            <label for="gender_1">Monsieur</label>
+            <div class="check"></div>
+          </div>
+                                <div class="customer-register-page__form__radio-group__radio-button radio--orange">
+            <input type="radio" id="gender_2"
+                   name="gender"
+                   value="2"
+                   >
+            <label for="gender_2">Madame</label>
+            <div class="check"></div>
+          </div>
+                                </div>
+</div>
+<!-- /BLOCK jardiland.customer.gender -->        
+
+            <div class="field field-name-firstname required">
+            <label class="label" for="popup_register_firstname">
+                <span>Prénom <sup>*</sup></span>
+            </label>
+
+            <div class="control relative">
+                <i class="icon icon-user icon-input"></i>
+                <input type="text" id="popup_register_firstname"
+                       placeholder="Prénom"
+                       name="firstname"
+                       value=""
+                       title="Prénom"
+                       class="input-text required-entry"   data-validate="{required:true, 'jardiland-name':true}">
+            </div>
+        </div>
+            <div class="field field-name-lastname required">
+            <label class="label"  for="popup_register_lastname">
+                <span>Nom <sup>*</sup></span>
+            </label>
+
+            <div class="control relative">
+                <i class="icon icon-user icon-input"></i>
+                <input type="text" id="popup_register_lastname"
+                       placeholder="Nom"
+                       name="lastname"
+                       value=""
+                       title="Nom"
+                       class="input-text required-entry"   data-validate="{required:true, 'jardiland-name':true}">
+            </div>
+        </div>
+    
+            <div class="field email required">
+            <label for="popup_email_address" class="label"><span>Email <sup>*</sup></span></label>
+            <div class="control relative">
+                <i class="icon icon-mail-envelope-closed icon-input"></i>
+                <input type="email" placeholder="email@gmail.com" name="email"
+                       autocomplete="email" id="popup_email_address"
+                       value=""
+                       title="Email" class="input-text"
+                       data-validate="{required:true, 'validate-email':true}">
+            </div>
+        </div>
+        <div class="field password required" data-mage-init='{"passwordStrengthIndicator": {}}'>
+            <label for="popup_password" class="label"><span>Mot de passe <sup>*</sup></span></label>
+            <div class="control relative">
+                <i class="icon icon-lock icon-input"></i>
+                <input type="password" placeholder="••••••••" name="password" id="popup_password"
+                       title="Mot de passe"
+                       class="input-text"
+                       data-password-min-length="8"
+                       data-password-min-character-sets="1"
+                       data-validate="{required:true, 'validate-customer-password':true}"
+                       autocomplete="off">
+                <input type='checkbox' tabindex="-1" id='popup_show-password' value='0'><i class="icon icon-eye" id='toggleText'></i>
+                <div id="password-strength-meter-container" data-role="password-strength-meter" >
+                    <div id="password-strength-meter" class="password-strength-meter">
+                        Fiabilité :
+                        <span id="password-strength-meter-label" data-role="password-strength-meter-label" >
+                        Aucun mot de passe                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="field confirmation required">
+            <label for="popup_password-confirmation" class="label"><span>Confirmer le mot de passe <sup>*</sup></span></label>
+            <div class="control relative">
+                <i class="icon icon-lock icon-input"></i>
+                <input type="password" name="password_confirmation" title="Confirmer le mot de passe" id="popup_password-confirmation" class="input-text" data-validate="{required:true, equalTo:'#popup_password'}" placeholder="••••••••" autocomplete="off">
+            </div>
+        </div>
+        <div class="customer-popin__register-section__form__remember-me required">
+            <label class="label"><span>Je souhaite recevoir par email, les offres promotionnelles du site Jardiland.com</span></label>
+            <div class="customer-popin__register-section__form__radio-group">
+                <div class="customer-popin__register-section__form__radio-group__radio-button radio--orange">
+                    <input type="radio" id="popup_newsletter_yes" name="is_subscribed" value="1" />
+                    <label for="popup_newsletter_yes">Oui</label>
+                    <div class="check"></div>
+                </div>
+                <div class="customer-popin__register-section__form__radio-group__radio-button radio--orange">
+                    <input type="radio" id="popup_newsletter_no" name="is_subscribed" value="0" checked />
+                    <label for="popup_newsletter_no">Non</label>
+                    <div class="check"><div class="inside"></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="customer-popin__register-section__form__remember-me required">
+            <label class="label"><span>J'accepte de recevoir les enquêtes clients / de satisfaction afin que Jardiland puisse répondre au mieux à mes attentes et améliore ses services</span></label>
+            <div class="customer-popin__register-section__form__radio-group">
+                <div class="customer-popin__register-section__form__radio-group__radio-button radio--orange">
+                    <input type="radio" id="popup_info_panel_yes" name="info_panel" value="1" />
+                    <label for="popup_info_panel_yes">Oui</label>
+                    <div class="check"></div>
+                </div>
+                <div class="customer-popin__register-section__form__radio-group__radio-button radio--orange">
+                    <input type="radio" id="popup_info_panel_no" name="info_panel" value="0" checked />
+                    <label for="popup_info_panel_no">Non</label>
+                    <div class="check"><div class="inside"></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="field fidelity required">
+            <label class="label"><span>J'ai la carte de fidélité Jardiland</span></label>
+            <div class="customer-popin__register-section__form__small-text">
+                Pour faciliter votre inscription et bénéficier en ligne de vos avantages fidélité            </div>
+            <div class="customer-popin__register-section__form__radio-group">
+                <div class="customer-popin__register-section__form__radio-group__radio-button radio--orange">
+                    <input type="radio" id="popup_fidelity_card_yes" data-fidelity-picker name="fidelity_choice" value="yes" />
+                    <label for="popup_fidelity_card_yes">Oui</label>
+                    <div class="check"></div>
+                </div>
+                <div class="customer-popin__register-section__form__radio-group__radio-button radio--orange">
+                    <input type="radio" id="popup_fidelity_card_no" data-fidelity-picker name="fidelity_choice" value="no" checked />
+                    <label for="popup_fidelity_card_no">Non</label>
+                    <div class="check"><div class="inside"></div></div>
+                </div>
+            </div>
+        </div>
+        <div id="fidelity-section">
+            <div class="field fidelity-number required">
+                <label for="popup_loyalty_card_number" class="label"><span>Numéro de votre carte de fidélité</span></label>
+                <div class="control relative">
+                    <i class="icon icon-fidelity icon-input"></i>
+                    <input type="text" placeholder="0629-XXXX-XXXX" name="loyalty_card_number"
+                           id="popup_loyalty_card_number"
+                           class="input-text"
+                           data-validate="{required:false}">
+                </div>
+            </div>
+            <p class="customer-popin__register-section__form__actions__infos card-nb">(Saisir uniquement les 13 n° indiqués sur votre carte)</p>
+        </div>
+        <div id="fidelity-advantages">
+            <h1 class="label"><span>Bénéficiez gratuitement des avantages du programme fidélité</span></h1>
+            <div class="customer-popin__register-section__form__small-text">
+                Chez Jardiland, on fait pousser vos avantages : bons d'achat, conseils et privilèges exclusifs.                 <a href="/programme-de-fidelite/">En savoir plus ></a>
+            </div>
+            <img src="https://www.jardiland.com/static/frontend/Jardiland/desktop/fr_FR/Jardiland_Loyalty/images/fidelite/cartes.png" alt="">
+            <div class="customer-register-page__form__remember-me fidelity-subscription">
+                <div class="checkbox--orange">
+                    <input id="popup-fidelity-subscription" type="checkbox" value="1" name="fidelity-subscription" />
+                    <label for="popup-fidelity-subscription"></label>
+                    <h2 class="checkbox-text">Je souhaite adhérer au programme de fidélité et j’accepte le règlement du <a href="https://www.jardiland.com/reglement-programme-de-fidelite-jardiland/" target="_blank">programme de fidelité</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="customer-popin__register-section__form__actions">
+            <button type="submit" class="action submit primary" title="Créer un compte"><span>Créer un compte</span></button>
+            <p class="customer-popin__register-section__form__actions__back">Vous avez déjà un compte ?<br><a class="back-to-login-form"><span>Se connecter</span></a></p>
+            <p class="customer-popin__register-section__form__actions__infos">*Champs obligatoires<br>En créant votre compte, vous acceptez nos <a href="https://www.jardiland.com/conditions-generales-vente-2/">conditions générales</a>.</p>
+        </div>
+    </form>
+    <p class="customer-popin__register-section__form__actions__infos">
+        Les informations recueillies font l'objet d'un traitement destiné à la gestion de la relation client et à la prospection selon vos choix. Pour en savoir plus sur le traitement de vos données personnelles, consultez notre politique de <a href="https://www.jardiland.com/politique-de-confidentialite/">Politique de Confidentialité</a>.    </p>
+</div>
+<script>
+    require([
+        'jquery',
+        'mage/mage'
+    ], function($){
+
+        var dataForm = $('#popup-form-validate');
+
+        dataForm.mage('validation', {
+            ignore: ':hidden'
+        }).find('input:text').attr('autocomplete', 'off');
+
+    });
+</script>
+<script type="text/x-magento-init">
+    {
+        ".customer-popin__register-section":
+        {
+            "customerRegisterFidelityPicker": {},
+            "togglePassword": {}
+        },
+        "#popup-fidelity-subscription":
+        {
+            "customerRegisterFidelitySubscriptionPicker": {}
+        }
+    }
+</script>
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "#popup-modal":
+        {
+            "jardilandCustomerLogin": {},
+            "jardilandLoyaltyLogin": {}
+        },
+        ".customer-popin__login-section":
+        {
+          "customerLoginPickerPopin": {}
+        }
+    }
+</script>
+</footer><!--a825e3f5d31c763c0cbf6bb94a68fb31--></div>    </body>
+</html>

@@ -1,0 +1,122 @@
+/*
+. est pour une class 
+# est pour une id
+* pour une universalité (la totalité de la page)
+: pour les pseudo-classe
+:: pour les pseudo-élément
+*/
+table, tr, td, th { 
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left; 
+  }
+
+  .visuel{ 
+    width: 100px;
+    height: auto;
+  }
+  .col1{
+    width: 210px;
+  }
+  .col2{
+    width: 70px;
+  }
+  .col3{
+    width: 150px;
+  }
+  .col4{
+    color: rgb(6,119,249);
+    width: 125px;
+  }
+  .col5{
+    width: 125px;
+  }
+  .col6{
+    width: 125px;
+  }
+  .colN,.colB,.col1,.col2,.col3,.col4,.col5,.col6{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .colB,.col1,.col2,.col3,.col4,.col5,.col6{
+    vertical-align: top;
+  }
+  #logo_jarditou{
+      width: 300px;
+  }
+  aside{
+    padding-bottom: 490px;
+    padding-right: 300px;
+    margin-top: 5px;
+    float: right;
+    background-color: grey;
+}
+  #sloganjardin{ 
+    float: right;
+    font: arial;
+    font-size: 30px;
+    margin-top: 15px;
+    padding-right: 30px;
+
+  }
+    ul { 
+      background-color: green;
+      list-style-type: none;
+      padding: 20px;
+
+
+    }
+    li{ /* mettre en ligne tout les <li>*/
+      display: inline
+    }
+    li a{ /* Décallé tous les <li> de 15px donnant de l'espace et mettant les liens en blanc*/
+      margin-right: 5px;
+      color: white;
+    }
+    fieldset{
+      border: 3px solid brown; /* met une bordure */
+      border-collapse: collapse; /* fusion de deux bordures */
+      border-radius: 5px; /* modifie les angles de la bordure */
+      margin-left: 10px;
+      padding-left: 10px;
+    }
+
+#promo{
+  width: 100%;
+}
+legend{
+  width: auto;
+  padding-right: 3px;
+}
+
+#ok{
+  margin-left: 10px;
+}
+#OK{
+  margin-left: 10px;
+}
+
+#add, #mod,#supp{
+  margin-left: 10px;
+}
+
+    /*-------------------Media queries-------------------*/
+    @media screen and (max-width: 768px)
+    {
+
+      li{
+        display: block;  
+      }
+      body{
+        font-size: 25px;
+      }
+    } 
+ aside{
+   display: none;
+ }
+
+    
