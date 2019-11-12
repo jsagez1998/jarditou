@@ -3,9 +3,9 @@
 function connexionBase(){
     // Paramètre de connexion serveur
     $host = "localhost";
-    $login= "root";     // Votre loggin d'accès au serveur de BDD 
-    $password="Doudou14";    // Le Password pour vous identifier auprès du serveur
-    $base = "jarditou";    // La bdd avec laquelle vous voulez travailler 
+    $login= "jsagez";     // Votre loggin d'accès au serveur de BDD 
+    $password="jsagez98";    // Le Password pour vous identifier auprès du serveur
+    $base = "jsagez";    // La bdd avec laquelle vous voulez travailler 
     try{
         $db = new PDO('mysql:host=' .$host. ';charset=utf8;dbname=' .$base, $login, $password);
         return $db;
@@ -15,5 +15,3 @@ function connexionBase(){
         die('Connexion au serveur impossible.');
     }   
 }
-    
-?>

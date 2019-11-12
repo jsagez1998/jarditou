@@ -13,6 +13,7 @@ function styleValid(elem) {
 
 function checkForm(event) {
   // Fonction appelée par addEventlistener
+  //Vérification du form
   if(!(rxCP.test(cp.value) || cp.value=="" )){
     event.preventDefault();
     missCP.textContent="Entrez un code postal valide ou rien";

@@ -27,22 +27,23 @@
 
     //Vérification du formulaire
     $state = true; // variable d'état
-    if(!isset($id) || !preg_match($num, $id)){
-        echo "ID produit invalide / non renseigné<br>";
-        $state = false;
-    }
-    if(!isset($cat) || !preg_match($num, $cat)){
+    if(!$_POST['pro_id']==strval(intval($_POST['pro_id']))){
         echo "Catégorie invalide / non renseigné<br>";
         $state = false;
     }
 
-    if(!isset($prix) || !preg_match($num, $prix)){
+    if(!$_POST['pro_cat_id']==strval(intval($_POST['pro_cat_id']))){
+        echo "Catégorie invalide / non renseigné<br>";
+        $state = false;
+    }
+
+    if(!$_POST['pro_prix']==strval(floatval($_POST['pro_prix']))){
         echo "Prix invalide / non renseigné<br>";
         $state = false;
     }
 
-    if(!isset($stock) || !preg_match($num, $stock)){
-        echo "Stock du produit invalide / non renseigné<br>";
+    if(!$_POST['pro_stock']==strval(intval($_POST['pro_stock']))){
+        echo "Stock invalide / non renseigné<br>";
         $state = false;
     }
 
@@ -76,6 +77,4 @@
             $result->bindValue(":bloque",$bloque);
             $result->execute(); //execution de la requete
             header("location:tableau.php"); // redirection vers tableau.php
-    } 
-
-?>
+    }

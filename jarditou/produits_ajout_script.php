@@ -1,6 +1,5 @@
 <?php 
     require "connexion_bdd.php";
-    
     //regex
     $lettre = "/^[a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœÉ]+(?:(?:\-| |\')?[a-zA-ZàèìòùÀÈÌÒÙáéíóúýÁÉÍÓÚÝâêîôûÂÊÎÔÛãñõÃÑÕäëïöüÿÄËÏÖÜŸçÇßØøÅåÆæœÉ]+)*$/";
     $num = "/^[0-9]+$/";
@@ -10,42 +9,40 @@
     $rximg = "/([\w|\s|-])*\.(?:jpg|png)/";
     
     //variables html
+    $id = $_POST["pro_id"];
     $cat = $_POST["pro_cat_id"];
-    $ref = $_POST["pro_ref"];
-    $lib = $_POST["pro_libelle"];
     $desc = $_POST["pro_description"];
     $prix = $_POST["pro_prix"];
     $stock = $_POST["pro_stock"];
     $couleur = $_POST["pro_couleur"];
-    
+
     //récupération de l'img
     $photo = $_FILES['pro_photo']['name'];
-    $ajout = $_POST["pro_d_ajout"];
-    $bloque = $_POST["pro_bloque"];
+    $modif = $_POST["pro_d_modif"];
+    if(!isset($_POST["pro_bloque"])){
+        $bloque = null;
+    }else{
+        $bloque = $_POST["pro_bloque"];
+    }
 
     //Vérification du formulaire
     $state = true; // variable d'état
-    if(!empty($cat) && !preg_match($num, $cat)){
+    if(!$_POST['pro_id']==strval(intval($_POST['pro_id']))){ //Si $_POST ! de la valeur de la chaine
         echo "Catégorie invalide / non renseigné<br>";
         $state = false;
     }
 
-    if(!isset($ref) || !preg_match($rxref, $ref)){
-        echo "Référence invalide / non renseigné<br>";
+    if(!$_POST['pro_cat_id']==strval(intval($_POST['pro_cat_id']))){
+        echo "Catégorie invalide / non renseigné<br>";
         $state = false;
     }
 
-    if(!isset($lib) || !preg_match($rxlib, $lib)){
-        echo "Libellé du produit invalide / non renseigné<br>";
-        $state = false;
-    }
-
-    if(!isset($prix) || !preg_match($num, $prix)){
+    if(!$_POST['pro_prix']==strval(floatval($_POST['pro_prix']))){
         echo "Prix invalide / non renseigné<br>";
         $state = false;
     }
 
-    if(!isset($stock) || !preg_match($num, $stock)){
+    if(!$_POST['pro_stock']==strval(intval($_POST['pro_stock']))){
         echo "Stock invalide / non renseigné<br>";
         $state = false;
     }
@@ -55,18 +52,14 @@
         $state = false;
     }
 
-    if(!isset($photo) || !preg_match($rximg,$photo)){
-        echo "Image invalide / non ajoutée<br>";
+    if(!isset($photo) || !preg_match($rximg, $photo)){
+        echo "Format de la photo invalide / non renseigné<br>";
         $state = false;
     }
 
-    if(!isset($ajout) || !preg_match($Date, $ajout)){
-        echo "Date d'ajout invalide / non renseigné<br>";
+    if(!empty($modif) && !preg_match($Date, $modif)){
+        echo "Date d'ajout invalide<br>";
         $state = false;
-    }
-
-    if($bloque!=1){
-        $bloque = "NULL";
     }
     
     if($state==true){
@@ -85,12 +78,5 @@
             $result->bindValue(":ajout",$ajout);
             $result->bindValue(":bloque",$bloque);
             $result->execute(); //execution de la requete
-            header("location:tableau.php"); // redirection vers tableau.php
+           header("location:tableau.php"); // redirection vers tableau.php
     }
-
-
-
-
-
-
-?>
